@@ -72,7 +72,7 @@
                 {
                     "id": "d12d5092-2716-441d-bab0-0e15fe715f5e",
                     "spriteSheetId": "ede130e6-013a-42d1-a786-1aed3fd3cf32",
-                    "x": 25,
+                    "x": 21,
                     "y": 18,
                     "movementType": "static",
                     "direction": "down",
@@ -9407,9 +9407,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 3474,
-        "worldScrollY": 2803,
-        "zoom": 750,
+        "worldScrollX": 0,
+        "worldScrollY": 0,
+        "zoom": 100,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
@@ -9437,9 +9437,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            794,
-            261,
-            261
+            429,
+            142,
+            142
         ],
         "showNavigator": true,
         "defaultFontId": "26fa15df-3318-44ad-8bfd-feff8ba7991d",

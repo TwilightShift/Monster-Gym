@@ -4527,11 +4527,11 @@
             "y": 557.1428571428568,
             "actors": [
                 {
-                    "name": "",
+                    "name": "Bar Filler",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "70debe68-4b4f-4a24-a774-bb7e5bfcd161",
-                    "direction": "down",
+                    "direction": "up",
                     "moveSpeed": 1,
                     "animSpeed": 15,
                     "paletteId": "",
@@ -4545,15 +4545,15 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "db8dc6d6-5b20-4894-96c3-695092f29d98",
-                    "x": 15,
+                    "x": 17,
                     "y": 17
                 },
                 {
-                    "name": "",
+                    "name": "Bar",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "2538ffd1-c45f-416a-a52d-989f1fa5b3d2",
-                    "direction": "down",
+                    "direction": "up",
                     "moveSpeed": 1,
                     "animSpeed": 15,
                     "paletteId": "",
@@ -4567,7 +4567,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "bfa20993-331b-42af-ae81-87d9669d57bc",
-                    "x": 15,
+                    "x": 17,
                     "y": 10
                 }
             ],
@@ -4609,6 +4609,23 @@
                                     "variable": "L0"
                                 },
                                 "id": "5ba4ebfd-abb3-4cd2-911f-f8583fce2573"
+                            },
+                            {
+                                "command": "EVENT_ACTOR_MOVE_TO",
+                                "args": {
+                                    "actorId": "db8dc6d6-5b20-4894-96c3-695092f29d98",
+                                    "x": {
+                                        "type": "number",
+                                        "value": 0
+                                    },
+                                    "y": {
+                                        "type": "variable",
+                                        "value": "L0"
+                                    },
+                                    "moveType": "vertical",
+                                    "useCollisions": false
+                                },
+                                "id": "204eefeb-f918-4cd6-a1c2-dd266e6dfaa7"
                             },
                             {
                                 "command": "EVENT_IF_VALUE",
@@ -4676,7 +4693,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "ShieldyBig.png"
+            "filename": "ShieldyBig.png",
+            "tileColors": []
         },
         {
             "id": "e6c23222-096e-4741-8803-8cf3352187f4",
@@ -4982,7 +5000,7 @@
             "boundsX": 0,
             "boundsY": 0,
             "boundsWidth": 16,
-            "boundsHeight": 16,
+            "boundsHeight": 64,
             "animSpeed": 15
         },
         {
@@ -5188,7 +5206,7 @@
             "boundsX": 0,
             "boundsY": 0,
             "boundsWidth": 16,
-            "boundsHeight": 16,
+            "boundsHeight": 64,
             "animSpeed": 15
         },
         {
@@ -9261,8 +9279,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 2540,
-        "worldScrollY": 2396,
+        "worldScrollX": 1797,
+        "worldScrollY": 2307,
         "zoom": 450,
         "customColorsEnabled": false,
         "sgbEnabled": false,

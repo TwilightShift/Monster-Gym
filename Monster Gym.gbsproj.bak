@@ -8,8 +8,8 @@
             "id": "94c18861-b352-4f49-a64d-52f2e3415077",
             "name": "Outside",
             "backgroundId": "1b7fa267-d716-40f0-b0d0-f4f966610e07",
-            "x": 399,
-            "y": 279,
+            "x": 387.3999999999997,
+            "y": 274.5999999999994,
             "width": 32,
             "height": 32,
             "actors": [
@@ -1541,7 +1541,8 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "type": "TOPDOWN",
-            "symbol": "scene_outside"
+            "symbol": "scene_outside",
+            "playerSpriteSheetId": "4a6cfc83-535c-45e0-a642-dcb9b586c732"
         },
         {
             "id": "5e64882f-8ce6-423e-b582-70fdb2142ff6",
@@ -6114,6 +6115,27 @@
             "playerHit3Script": [],
             "type": "TOPDOWN",
             "symbol": "scene_menu"
+        },
+        {
+            "name": "Monster Selection",
+            "backgroundId": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "e90baef0-f87a-485e-b266-7c57713bd1aa",
+            "symbol": "scene_9",
+            "x": 530,
+            "y": 607.6,
+            "actors": [],
+            "triggers": [],
+            "script": [],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
         }
     ],
     "backgrounds": [
@@ -9763,9 +9785,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 158,
-        "worldScrollY": 847,
-        "zoom": 250,
+        "worldScrollX": 2396,
+        "worldScrollY": 3180,
+        "zoom": 550,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
@@ -9793,9 +9815,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            572,
-            188,
-            188
+            794,
+            261,
+            261
         ],
         "showNavigator": true,
         "defaultFontId": "26fa15df-3318-44ad-8bfd-feff8ba7991d",

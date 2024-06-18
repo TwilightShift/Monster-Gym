@@ -6118,7 +6118,7 @@
         },
         {
             "name": "Monster Selection",
-            "backgroundId": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
+            "backgroundId": "72625c58-a82b-41ef-abe4-76d26d032c50",
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
@@ -6139,6 +6139,16 @@
         }
     ],
     "backgrounds": [
+        {
+            "id": "72625c58-a82b-41ef-abe4-76d26d032c50",
+            "name": "Monster Selection",
+            "symbol": "bg_monster_selection",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Monster Selection.png"
+        },
         {
             "id": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
             "name": "cave",
@@ -9785,9 +9795,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 2396,
-        "worldScrollY": 3180,
-        "zoom": 550,
+        "worldScrollX": 33,
+        "worldScrollY": 0,
+        "zoom": 100,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
@@ -9815,9 +9825,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            794,
-            261,
-            261
+            572,
+            188,
+            188
         ],
         "showNavigator": true,
         "defaultFontId": "26fa15df-3318-44ad-8bfd-feff8ba7991d",

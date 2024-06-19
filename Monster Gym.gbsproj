@@ -4762,7 +4762,7 @@
                     "name": "",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "17219846-cda9-4e84-bdfa-c3ff105d42cc",
+                    "spriteSheetId": "c33d2954-638d-4e6e-824e-1327a48a35c3",
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -5541,7 +5541,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "Melty.png"
+            "filename": "Melty.png",
+            "tileColors": []
         },
         {
             "id": "72625c58-a82b-41ef-abe4-76d26d032c50",
@@ -5566,7 +5567,11 @@
             "tileColors": []
         },
         {
+<<<<<<< Updated upstream
             "id": "27236cab-b69a-444d-851f-23b0c7a22122",
+=======
+            "id": "cb05237f-1288-4dae-a8fb-202ba008e154",
+>>>>>>> Stashed changes
             "name": "Outside1new",
             "symbol": "bg_outside1new",
             "width": 32,
@@ -5664,7 +5669,11 @@
             "tileColors": []
         },
         {
+<<<<<<< Updated upstream
             "id": "2a0c93c2-2773-4549-b75e-8a0af49b8b6b",
+=======
+            "id": "bbffd734-cb61-4c1d-b5b8-3c0519d7b4d4",
+>>>>>>> Stashed changes
             "name": "outsidetest",
             "symbol": "bg_outsidetest",
             "width": 32,
@@ -6605,7 +6614,11 @@
             "animSpeed": 15
         },
         {
+<<<<<<< Updated upstream
             "id": "8f2609d5-6c7d-4372-a9bd-c9926685d1a2",
+=======
+            "id": "c33d2954-638d-4e6e-824e-1327a48a35c3",
+>>>>>>> Stashed changes
             "name": "Melty",
             "symbol": "sprite_melty",
             "numFrames": 6,
@@ -6616,12 +6629,17 @@
             "height": 16,
             "states": [
                 {
+<<<<<<< Updated upstream
                     "id": "41bac203-c396-49ce-baeb-5ef66a8247d1",
+=======
+                    "id": "9ac518d4-f1bf-4cc7-b857-7b1346dbe5a2",
+>>>>>>> Stashed changes
                     "name": "",
                     "animationType": "multi_movement",
                     "flipLeft": true,
                     "animations": [
                         {
+<<<<<<< Updated upstream
                             "id": "bc420b9f-8761-4d35-9f8d-5269e53d0320",
                             "frames": [
                                 {
@@ -6629,6 +6647,15 @@
                                     "tiles": [
                                         {
                                             "id": "dec4aaf2-6721-47d2-840c-78a67553969b",
+=======
+                            "id": "26888f4e-a58e-437d-bca0-46f98f8a67bb",
+                            "frames": [
+                                {
+                                    "id": "a144da07-40c6-491f-9dad-26cafcd75ae5",
+                                    "tiles": [
+                                        {
+                                            "id": "dae6146e-b2b7-4c10-815a-f639138c28dd",
+>>>>>>> Stashed changes
                                             "x": 0,
                                             "y": 0,
                                             "sliceX": 64,
@@ -6641,7 +6668,11 @@
                                             "priority": false
                                         },
                                         {
+<<<<<<< Updated upstream
                                             "id": "4a5d1695-c6e3-4d9f-ae0a-6825044f104a",
+=======
+                                            "id": "b622fe52-39c4-4f49-9172-db350654a1d0",
+>>>>>>> Stashed changes
                                             "x": 8,
                                             "y": 0,
                                             "sliceX": 72,
@@ -6658,15 +6689,23 @@
                             ]
                         },
                         {
+<<<<<<< Updated upstream
                             "id": "10ce0921-7d7d-47ed-82ac-9acb1ebc1011",
                             "frames": [
                                 {
                                     "id": "2309dd24-4217-4395-9e2b-1be781ba69b1",
+=======
+                            "id": "9b6b0f7e-d523-4292-9fba-33f04f261048",
+                            "frames": [
+                                {
+                                    "id": "5728d56e-591d-42ed-8d70-719862103cbe",
+>>>>>>> Stashed changes
                                     "tiles": []
                                 }
                             ]
                         },
                         {
+<<<<<<< Updated upstream
                             "id": "56cfcea4-dc8f-4fab-80bc-e7111a7ab99e",
                             "frames": [
                                 {
@@ -6674,6 +6713,15 @@
                                     "tiles": [
                                         {
                                             "id": "0a77b834-641b-4642-aefc-3cee1b000d44",
+=======
+                            "id": "40b58d5b-f6d9-441a-b71d-79f9ddf5e549",
+                            "frames": [
+                                {
+                                    "id": "9508a796-6caf-4363-a2a7-5cc515165530",
+                                    "tiles": [
+                                        {
+                                            "id": "a33d2051-4a2a-4bc6-bda1-85f3e0fe06b2",
+>>>>>>> Stashed changes
                                             "x": 0,
                                             "y": 0,
                                             "sliceX": 32,
@@ -6686,7 +6734,11 @@
                                             "priority": false
                                         },
                                         {
+<<<<<<< Updated upstream
                                             "id": "cb5fc91c-54a9-48ac-b302-3977b75b101f",
+=======
+                                            "id": "08f96999-787d-4574-80c2-36f2ddb2aba5",
+>>>>>>> Stashed changes
                                             "x": 8,
                                             "y": 0,
                                             "sliceX": 40,
@@ -6703,6 +6755,7 @@
                             ]
                         },
                         {
+<<<<<<< Updated upstream
                             "id": "d7f3f8e2-e775-45a2-ae66-80921b2750d7",
                             "frames": [
                                 {
@@ -6710,6 +6763,15 @@
                                     "tiles": [
                                         {
                                             "id": "42c9b106-e7cd-4b28-b9ef-e39073bb9a93",
+=======
+                            "id": "a9328b37-e2a7-4359-ba33-19fdd00470d4",
+                            "frames": [
+                                {
+                                    "id": "87462afe-651a-4231-a50b-134336c52edc",
+                                    "tiles": [
+                                        {
+                                            "id": "a8ec9142-cb85-44a9-ac3b-389189aec805",
+>>>>>>> Stashed changes
                                             "x": 0,
                                             "y": 0,
                                             "sliceX": 0,
@@ -6722,7 +6784,11 @@
                                             "priority": false
                                         },
                                         {
+<<<<<<< Updated upstream
                                             "id": "b907659f-94ac-450b-9571-895e99eaa92f",
+=======
+                                            "id": "2bb751a2-e1c4-4331-9143-8360856f527e",
+>>>>>>> Stashed changes
                                             "x": 8,
                                             "y": 0,
                                             "sliceX": 8,
@@ -6739,6 +6805,7 @@
                             ]
                         },
                         {
+<<<<<<< Updated upstream
                             "id": "38fe9cec-62c8-4c33-a77c-51311fcf1511",
                             "frames": [
                                 {
@@ -6746,6 +6813,15 @@
                                     "tiles": [
                                         {
                                             "id": "b5fe97c7-f46e-41f6-bbe1-93bc7711780e",
+=======
+                            "id": "909baf52-481e-4a76-9912-ca55bb5f7bac",
+                            "frames": [
+                                {
+                                    "id": "46bf8c4e-62c2-4346-9d56-0435e8da8094",
+                                    "tiles": [
+                                        {
+                                            "id": "8405c59d-e5bb-4ddf-ac8c-b4973a606aa1",
+>>>>>>> Stashed changes
                                             "x": 0,
                                             "y": 0,
                                             "sliceX": 80,
@@ -6758,7 +6834,11 @@
                                             "priority": false
                                         },
                                         {
+<<<<<<< Updated upstream
                                             "id": "40fa1a57-c671-41e0-b9ef-23fba31e406e",
+=======
+                                            "id": "9e80276d-b462-4388-98e4-949c0fd0fcb1",
+>>>>>>> Stashed changes
                                             "x": 8,
                                             "y": 0,
                                             "sliceX": 88,
@@ -6773,10 +6853,17 @@
                                     ]
                                 },
                                 {
+<<<<<<< Updated upstream
                                     "id": "a3df8049-9f7f-4d40-a3eb-59c37e8c7e9b",
                                     "tiles": [
                                         {
                                             "id": "1a4a894b-b839-4e50-9544-e07bd331eaa3",
+=======
+                                    "id": "c3b48c82-993d-4518-bfc0-0f0d0191085d",
+                                    "tiles": [
+                                        {
+                                            "id": "b0df1fcd-c58d-40a1-a7c1-a2ed988afbf5",
+>>>>>>> Stashed changes
                                             "x": 0,
                                             "y": 0,
                                             "sliceX": 64,
@@ -6789,7 +6876,11 @@
                                             "priority": false
                                         },
                                         {
+<<<<<<< Updated upstream
                                             "id": "4a783360-c5e0-4496-8ec1-2389d5824e91",
+=======
+                                            "id": "cad8431a-1881-48c4-b6fd-b21f14562fe6",
+>>>>>>> Stashed changes
                                             "x": 8,
                                             "y": 0,
                                             "sliceX": 72,
@@ -6806,15 +6897,23 @@
                             ]
                         },
                         {
+<<<<<<< Updated upstream
                             "id": "1dbbd5f9-2d64-495f-abb0-e4004761aadf",
                             "frames": [
                                 {
                                     "id": "1004cb60-daa4-48d8-a396-8d6b3da99034",
+=======
+                            "id": "3379d9ff-03f8-40da-b2b3-5af18203ec8b",
+                            "frames": [
+                                {
+                                    "id": "8f389fb0-a33c-429f-8a33-1e3bbbb06f3b",
+>>>>>>> Stashed changes
                                     "tiles": []
                                 }
                             ]
                         },
                         {
+<<<<<<< Updated upstream
                             "id": "10fa805c-6584-4127-8e01-16077b134907",
                             "frames": [
                                 {
@@ -6822,6 +6921,15 @@
                                     "tiles": [
                                         {
                                             "id": "a2b3134a-c0c7-4fb9-ba79-1413c65b8c7d",
+=======
+                            "id": "1173f655-f1f0-42ea-bf81-49b36c4e3dfd",
+                            "frames": [
+                                {
+                                    "id": "a5dcc907-df4c-4017-9242-760afc4df6bf",
+                                    "tiles": [
+                                        {
+                                            "id": "a0c89452-4550-4b59-8de9-8ec826a318e7",
+>>>>>>> Stashed changes
                                             "x": 0,
                                             "y": 0,
                                             "sliceX": 48,
@@ -6834,7 +6942,11 @@
                                             "priority": false
                                         },
                                         {
+<<<<<<< Updated upstream
                                             "id": "9c6f87b1-970b-4f2c-8be9-b838efd1a6be",
+=======
+                                            "id": "b5e7b7e8-79ab-4295-a1eb-1c5e691adf83",
+>>>>>>> Stashed changes
                                             "x": 8,
                                             "y": 0,
                                             "sliceX": 56,
@@ -6849,10 +6961,17 @@
                                     ]
                                 },
                                 {
+<<<<<<< Updated upstream
                                     "id": "069ad3cb-10f3-434a-819a-2d88fcb71be9",
                                     "tiles": [
                                         {
                                             "id": "ac3f4a1c-4bc3-4ecb-8065-57419f7c35bd",
+=======
+                                    "id": "7390cddd-cd08-456e-86b8-bd6f0ee9547f",
+                                    "tiles": [
+                                        {
+                                            "id": "b37015db-257b-4d5f-bba6-ee4102285e78",
+>>>>>>> Stashed changes
                                             "x": 0,
                                             "y": 0,
                                             "sliceX": 32,
@@ -6865,7 +6984,11 @@
                                             "priority": false
                                         },
                                         {
+<<<<<<< Updated upstream
                                             "id": "2f23fe93-18d4-4473-ac03-e3eb9d488943",
+=======
+                                            "id": "bd6f1694-2ebb-4963-9b5b-1a4cbc2e1078",
+>>>>>>> Stashed changes
                                             "x": 8,
                                             "y": 0,
                                             "sliceX": 40,
@@ -6882,6 +7005,7 @@
                             ]
                         },
                         {
+<<<<<<< Updated upstream
                             "id": "12955118-a83a-46c1-b97a-f7052fd64d8f",
                             "frames": [
                                 {
@@ -6889,6 +7013,15 @@
                                     "tiles": [
                                         {
                                             "id": "ce5a8173-3cf4-46fc-8c28-a49061811e42",
+=======
+                            "id": "a78150f6-1f62-4ec6-800a-5b4796d1ba81",
+                            "frames": [
+                                {
+                                    "id": "152323a9-0d05-4352-8520-add168af529b",
+                                    "tiles": [
+                                        {
+                                            "id": "482c0380-c0aa-4456-a1df-c0eaf11982f8",
+>>>>>>> Stashed changes
                                             "x": 0,
                                             "y": 0,
                                             "sliceX": 16,
@@ -6901,7 +7034,11 @@
                                             "priority": false
                                         },
                                         {
+<<<<<<< Updated upstream
                                             "id": "299852e7-1d37-47c1-8364-3cac25cf8aa8",
+=======
+                                            "id": "82158de0-23e6-4172-b96f-c490353ef27a",
+>>>>>>> Stashed changes
                                             "x": 8,
                                             "y": 0,
                                             "sliceX": 24,
@@ -6916,10 +7053,17 @@
                                     ]
                                 },
                                 {
+<<<<<<< Updated upstream
                                     "id": "b3f631cb-8a2e-4168-921a-6e6c9867f703",
                                     "tiles": [
                                         {
                                             "id": "b73fca38-bf42-45a7-aad3-de7f1ad42f1f",
+=======
+                                    "id": "250bdb53-0967-4788-b013-da3a843914dc",
+                                    "tiles": [
+                                        {
+                                            "id": "10bc0422-c305-4737-8292-b4319ea18bf8",
+>>>>>>> Stashed changes
                                             "x": 0,
                                             "y": 0,
                                             "sliceX": 0,
@@ -6932,7 +7076,11 @@
                                             "priority": false
                                         },
                                         {
+<<<<<<< Updated upstream
                                             "id": "b8535d4d-a9cb-43da-bd4f-c3f3ce6c06d8",
+=======
+                                            "id": "e9b50b89-5a6c-4894-bc6b-0d5fa25b2f06",
+>>>>>>> Stashed changes
                                             "x": 8,
                                             "y": 0,
                                             "sliceX": 8,
@@ -10942,7 +11090,11 @@
             "type": "uge"
         },
         {
+<<<<<<< Updated upstream
             "id": "2365ac0a-00d6-4eab-b721-1286f8012570",
+=======
+            "id": "a50f5bf9-a1fb-4b4b-9934-478a0224e03f",
+>>>>>>> Stashed changes
             "name": "song_template 2",
             "symbol": "song_song_template_2",
             "filename": "song_template 2.uge",
@@ -11166,11 +11318,6 @@
             "symbol": "var_turn"
         },
         {
-            "id": "fd86bf02-06f8-4860-b5e8-339a259ce26d__L0",
-            "name": "turn",
-            "symbol": "var_turn_0"
-        },
-        {
             "id": "20",
             "name": "PlayerAttack",
             "symbol": "var_playerattack"
@@ -11199,6 +11346,11 @@
             "id": "25",
             "name": "EnemySpeed",
             "symbol": "var_enemyspeed"
+        },
+        {
+            "id": "fd86bf02-06f8-4860-b5e8-339a259ce26d__L0",
+            "name": "turn",
+            "symbol": "var_turn_0"
         },
         {
             "id": "796afc0d-c54b-48c6-9399-d75159b999d2__L0",
@@ -11234,8 +11386,13 @@
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         "worldScrollX": 2081,
         "worldScrollY": 1554,
+=======
+        "worldScrollX": 2281,
+        "worldScrollY": 1581,
+>>>>>>> Stashed changes
         "zoom": 500,
 =======
         "worldScrollX": 1074,
@@ -11269,9 +11426,15 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
+<<<<<<< Updated upstream
             575,
             56,
             317
+=======
+            205,
+            79,
+            1032
+>>>>>>> Stashed changes
         ],
         "showNavigator": true,
         "defaultFontId": "26fa15df-3318-44ad-8bfd-feff8ba7991d",

@@ -5193,7 +5193,7 @@
                                             "operator": "==",
                                             "comparator": 1,
                                             "__collapseElse": true,
-                                            "__collapse": true
+                                            "__collapse": false
                                         },
                                         "children": {
                                             "true": [
@@ -5202,7 +5202,8 @@
                                                     "args": {
                                                         "time": 0.5,
                                                         "frames": 30,
-                                                        "shakeDirection": "horizontal"
+                                                        "shakeDirection": "horizontal",
+                                                        "__collapse": true
                                                     },
                                                     "id": "ceb05198-da20-43ec-b2bf-2b9679e1f65a"
                                                 },
@@ -5216,7 +5217,8 @@
                                                         "value": "0",
                                                         "minValue": null,
                                                         "maxValue": 3,
-                                                        "clamp": false
+                                                        "clamp": false,
+                                                        "__collapse": true
                                                     },
                                                     "id": "ec373f23-14d6-4a04-8038-870016735f74"
                                                 },
@@ -5230,9 +5232,36 @@
                                                         "value": "0",
                                                         "minValue": null,
                                                         "maxValue": 3,
-                                                        "clamp": false
+                                                        "clamp": false,
+                                                        "__collapse": true
                                                     },
                                                     "id": "bde7d04a-9a46-4a8e-9514-8ea7091f4e0b"
+                                                },
+                                                {
+                                                    "command": "EVENT_IF_VALUE",
+                                                    "args": {
+                                                        "variable": "L0",
+                                                        "operator": "<=",
+                                                        "comparator": "0",
+                                                        "__collapseElse": true
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_SET_VALUE",
+                                                                "args": {
+                                                                    "variable": "L0",
+                                                                    "value": {
+                                                                        "type": "number",
+                                                                        "value": 1
+                                                                    }
+                                                                },
+                                                                "id": "b51034b2-0a6e-4ff6-999b-193ad0a47758"
+                                                            }
+                                                        ],
+                                                        "false": []
+                                                    },
+                                                    "id": "59c40b05-8f7a-4a25-a82a-16d8eff8af9f"
                                                 },
                                                 {
                                                     "command": "EVENT_VARIABLE_MATH",
@@ -5244,7 +5273,8 @@
                                                         "value": "0",
                                                         "minValue": null,
                                                         "maxValue": 3,
-                                                        "clamp": false
+                                                        "clamp": false,
+                                                        "__collapse": true
                                                     },
                                                     "id": "e046b44c-7003-42bd-8b93-9f51ab0c2440"
                                                 },
@@ -5305,7 +5335,8 @@
                                             "text": [
                                                 "The enemy attacks!"
                                             ],
-                                            "avatarId": ""
+                                            "avatarId": "",
+                                            "__collapse": true
                                         },
                                         "id": "3a222b99-885d-4f23-946d-1d1adac6620d"
                                     },
@@ -5314,7 +5345,8 @@
                                         "args": {
                                             "time": 0.5,
                                             "frames": 30,
-                                            "shakeDirection": "horizontal"
+                                            "shakeDirection": "horizontal",
+                                            "__collapse": true
                                         },
                                         "id": "26435ff0-249b-4931-bab9-0ee84e07aa60"
                                     },
@@ -5328,7 +5360,8 @@
                                             "value": 1,
                                             "minValue": "0",
                                             "maxValue": "32767",
-                                            "clamp": false
+                                            "clamp": false,
+                                            "__collapse": true
                                         },
                                         "id": "4b037d3d-5ea5-49d6-9922-7c5be3099e02"
                                     },
@@ -5342,9 +5375,36 @@
                                             "value": 1,
                                             "minValue": "0",
                                             "maxValue": "32767",
-                                            "clamp": false
+                                            "clamp": false,
+                                            "__collapse": false
                                         },
                                         "id": "1e5bd941-d71d-43e1-bf37-fa5ba265bb0b"
+                                    },
+                                    {
+                                        "command": "EVENT_IF_VALUE",
+                                        "args": {
+                                            "variable": "L0",
+                                            "operator": "<=",
+                                            "comparator": "0",
+                                            "__collapseElse": true
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_SET_VALUE",
+                                                    "args": {
+                                                        "variable": "L0",
+                                                        "value": {
+                                                            "type": "number",
+                                                            "value": 1
+                                                        }
+                                                    },
+                                                    "id": "1a4b6c81-64b3-4acc-b6f5-c6f259bdef11"
+                                                }
+                                            ],
+                                            "false": []
+                                        },
+                                        "id": "efd9f213-8f3f-40e8-a1c7-be6e6bd42a9a"
                                     },
                                     {
                                         "command": "EVENT_VARIABLE_MATH",
@@ -10790,8 +10850,13 @@
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         "worldScrollX": 2537,
         "worldScrollY": 1498,
+=======
+        "worldScrollX": 2081,
+        "worldScrollY": 1554,
+>>>>>>> Stashed changes
         "zoom": 500,
 =======
         "worldScrollX": 1016,

@@ -1430,10 +1430,27 @@
                         "value": {
                             "type": "number",
                             "value": 10
+<<<<<<< Updated upstream
                         },
                         "__collapse": true
                     },
                     "id": "70e297ba-5cbe-4003-9eca-53c7d6e24066"
+=======
+                        }
+                    },
+                    "id": "70e297ba-5cbe-4003-9eca-53c7d6e24066"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "18",
+                        "value": {
+                            "type": "number",
+                            "value": 20
+                        }
+                    },
+                    "id": "9190fb3e-60ba-4e22-8e37-9bb6244e742e"
+>>>>>>> Stashed changes
                 }
             ],
             "playerHit1Script": [],
@@ -5452,6 +5469,7 @@
             "imageHeight": 144,
             "filename": "Banspeed.png",
             "tileColors": []
+<<<<<<< Updated upstream
         },
         {
             "id": "55fffa13-a89f-4cc4-a17b-5799ae681268",
@@ -5462,6 +5480,8 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Melty.png"
+=======
+>>>>>>> Stashed changes
         },
         {
             "id": "72625c58-a82b-41ef-abe4-76d26d032c50",
@@ -10769,9 +10789,15 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
+<<<<<<< Updated upstream
         "worldScrollX": 2537,
         "worldScrollY": 1498,
         "zoom": 500,
+=======
+        "worldScrollX": 1016,
+        "worldScrollY": 2274,
+        "zoom": 450,
+>>>>>>> Stashed changes
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",

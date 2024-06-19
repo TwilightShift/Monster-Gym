@@ -5568,9 +5568,13 @@
         },
         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             "id": "27236cab-b69a-444d-851f-23b0c7a22122",
 =======
             "id": "cb05237f-1288-4dae-a8fb-202ba008e154",
+>>>>>>> Stashed changes
+=======
+            "id": "782c7023-8461-4ff6-bd90-8e680aa75f2d",
 >>>>>>> Stashed changes
             "name": "Outside1new",
             "symbol": "bg_outside1new",
@@ -5670,9 +5674,13 @@
         },
         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             "id": "2a0c93c2-2773-4549-b75e-8a0af49b8b6b",
 =======
             "id": "bbffd734-cb61-4c1d-b5b8-3c0519d7b4d4",
+>>>>>>> Stashed changes
+=======
+            "id": "cf2a7927-f05e-4226-96d2-3a708b78b3a5",
 >>>>>>> Stashed changes
             "name": "outsidetest",
             "symbol": "bg_outsidetest",
@@ -6615,9 +6623,13 @@
         },
         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             "id": "8f2609d5-6c7d-4372-a9bd-c9926685d1a2",
 =======
             "id": "c33d2954-638d-4e6e-824e-1327a48a35c3",
+>>>>>>> Stashed changes
+=======
+            "id": "3a793fb3-fe50-4d48-ab0e-c0d5ada89a0f",
 >>>>>>> Stashed changes
             "name": "Melty",
             "symbol": "sprite_melty",
@@ -6630,15 +6642,20 @@
             "states": [
                 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                     "id": "41bac203-c396-49ce-baeb-5ef66a8247d1",
 =======
                     "id": "9ac518d4-f1bf-4cc7-b857-7b1346dbe5a2",
+>>>>>>> Stashed changes
+=======
+                    "id": "ef7e42b0-ce6e-485b-9a21-ce11f9a7655c",
 >>>>>>> Stashed changes
                     "name": "",
                     "animationType": "multi_movement",
                     "flipLeft": true,
                     "animations": [
                         {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                             "id": "bc420b9f-8761-4d35-9f8d-5269e53d0320",
                             "frames": [
@@ -6656,6 +6673,15 @@
                                         {
                                             "id": "dae6146e-b2b7-4c10-815a-f639138c28dd",
 >>>>>>> Stashed changes
+=======
+                            "id": "8c5df83c-83ea-4f4e-be0c-c61819f4c7b8",
+                            "frames": [
+                                {
+                                    "id": "7f56039d-6f3b-4b36-82d3-a00f74701a0d",
+                                    "tiles": [
+                                        {
+                                            "id": "7f412b20-298d-41a8-bcb3-33e0adb1d87b",
+>>>>>>> Stashed changes
                                             "x": 0,
                                             "y": 0,
                                             "sliceX": 64,
@@ -6669,9 +6695,13 @@
                                         },
                                         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                             "id": "4a5d1695-c6e3-4d9f-ae0a-6825044f104a",
 =======
                                             "id": "b622fe52-39c4-4f49-9172-db350654a1d0",
+>>>>>>> Stashed changes
+=======
+                                            "id": "02222768-a58d-4fd0-9099-c1b644e8997a",
 >>>>>>> Stashed changes
                                             "x": 8,
                                             "y": 0,
@@ -6690,6 +6720,7 @@
                         },
                         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             "id": "10ce0921-7d7d-47ed-82ac-9acb1ebc1011",
                             "frames": [
                                 {
@@ -6700,11 +6731,18 @@
                                 {
                                     "id": "5728d56e-591d-42ed-8d70-719862103cbe",
 >>>>>>> Stashed changes
+=======
+                            "id": "4079a81e-eee2-4475-9e68-caa82722dce1",
+                            "frames": [
+                                {
+                                    "id": "6fdfc0c6-bf0c-4d25-bd73-41062c1a6b0b",
+>>>>>>> Stashed changes
                                     "tiles": []
                                 }
                             ]
                         },
                         {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                             "id": "56cfcea4-dc8f-4fab-80bc-e7111a7ab99e",
                             "frames": [
@@ -6722,6 +6760,15 @@
                                         {
                                             "id": "a33d2051-4a2a-4bc6-bda1-85f3e0fe06b2",
 >>>>>>> Stashed changes
+=======
+                            "id": "08d4ed6b-dc56-4b86-bd18-8b02cd8a3d56",
+                            "frames": [
+                                {
+                                    "id": "37f87792-e819-45ab-9e1e-790f08109ff2",
+                                    "tiles": [
+                                        {
+                                            "id": "9226cafb-1008-4bbb-8e2c-562414c564b1",
+>>>>>>> Stashed changes
                                             "x": 0,
                                             "y": 0,
                                             "sliceX": 32,
@@ -6735,9 +6782,13 @@
                                         },
                                         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                             "id": "cb5fc91c-54a9-48ac-b302-3977b75b101f",
 =======
                                             "id": "08f96999-787d-4574-80c2-36f2ddb2aba5",
+>>>>>>> Stashed changes
+=======
+                                            "id": "e5a1b5c3-a410-4677-9590-b82ca5167840",
 >>>>>>> Stashed changes
                                             "x": 8,
                                             "y": 0,
@@ -6756,6 +6807,7 @@
                         },
                         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             "id": "d7f3f8e2-e775-45a2-ae66-80921b2750d7",
                             "frames": [
                                 {
@@ -6772,6 +6824,15 @@
                                         {
                                             "id": "a8ec9142-cb85-44a9-ac3b-389189aec805",
 >>>>>>> Stashed changes
+=======
+                            "id": "15dbfd55-84d1-4134-a647-673e91f8b518",
+                            "frames": [
+                                {
+                                    "id": "a54c28f8-88a1-4ad8-b6b5-d9176155d2a7",
+                                    "tiles": [
+                                        {
+                                            "id": "767b8e40-ad08-43f0-9012-e07a4c8413e2",
+>>>>>>> Stashed changes
                                             "x": 0,
                                             "y": 0,
                                             "sliceX": 0,
@@ -6785,9 +6846,13 @@
                                         },
                                         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                             "id": "b907659f-94ac-450b-9571-895e99eaa92f",
 =======
                                             "id": "2bb751a2-e1c4-4331-9143-8360856f527e",
+>>>>>>> Stashed changes
+=======
+                                            "id": "894b247b-2b6e-4c35-beca-33034450bb6e",
 >>>>>>> Stashed changes
                                             "x": 8,
                                             "y": 0,
@@ -6806,6 +6871,7 @@
                         },
                         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             "id": "38fe9cec-62c8-4c33-a77c-51311fcf1511",
                             "frames": [
                                 {
@@ -6822,6 +6888,15 @@
                                         {
                                             "id": "8405c59d-e5bb-4ddf-ac8c-b4973a606aa1",
 >>>>>>> Stashed changes
+=======
+                            "id": "a1c8c96b-4049-4155-b75f-743491425cfc",
+                            "frames": [
+                                {
+                                    "id": "a8f24a89-41e6-44b1-9860-8942f9394742",
+                                    "tiles": [
+                                        {
+                                            "id": "1eee6c6d-22fa-419b-924b-3eb40bf6c9fe",
+>>>>>>> Stashed changes
                                             "x": 0,
                                             "y": 0,
                                             "sliceX": 80,
@@ -6835,9 +6910,13 @@
                                         },
                                         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                             "id": "40fa1a57-c671-41e0-b9ef-23fba31e406e",
 =======
                                             "id": "9e80276d-b462-4388-98e4-949c0fd0fcb1",
+>>>>>>> Stashed changes
+=======
+                                            "id": "2166c9af-59c4-4712-b689-1c960bf29f11",
 >>>>>>> Stashed changes
                                             "x": 8,
                                             "y": 0,
@@ -6854,6 +6933,7 @@
                                 },
                                 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                     "id": "a3df8049-9f7f-4d40-a3eb-59c37e8c7e9b",
                                     "tiles": [
                                         {
@@ -6863,6 +6943,12 @@
                                     "tiles": [
                                         {
                                             "id": "b0df1fcd-c58d-40a1-a7c1-a2ed988afbf5",
+>>>>>>> Stashed changes
+=======
+                                    "id": "8a3a9445-f9d0-4753-b420-a5d806b13e54",
+                                    "tiles": [
+                                        {
+                                            "id": "857768f4-5ecf-4352-a966-48f0eb3f5ee3",
 >>>>>>> Stashed changes
                                             "x": 0,
                                             "y": 0,
@@ -6877,9 +6963,13 @@
                                         },
                                         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                             "id": "4a783360-c5e0-4496-8ec1-2389d5824e91",
 =======
                                             "id": "cad8431a-1881-48c4-b6fd-b21f14562fe6",
+>>>>>>> Stashed changes
+=======
+                                            "id": "18d39bac-2067-4574-82ac-14ec6c63f69a",
 >>>>>>> Stashed changes
                                             "x": 8,
                                             "y": 0,
@@ -6898,6 +6988,7 @@
                         },
                         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             "id": "1dbbd5f9-2d64-495f-abb0-e4004761aadf",
                             "frames": [
                                 {
@@ -6908,11 +6999,18 @@
                                 {
                                     "id": "8f389fb0-a33c-429f-8a33-1e3bbbb06f3b",
 >>>>>>> Stashed changes
+=======
+                            "id": "5ab6a165-541d-475d-9dce-5bcef4da4707",
+                            "frames": [
+                                {
+                                    "id": "b5b4b82d-d65d-4f69-83e4-2bad49b1b21c",
+>>>>>>> Stashed changes
                                     "tiles": []
                                 }
                             ]
                         },
                         {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
                             "id": "10fa805c-6584-4127-8e01-16077b134907",
                             "frames": [
@@ -6930,6 +7028,15 @@
                                         {
                                             "id": "a0c89452-4550-4b59-8de9-8ec826a318e7",
 >>>>>>> Stashed changes
+=======
+                            "id": "86b19c96-813e-4249-a251-e86a3b201a35",
+                            "frames": [
+                                {
+                                    "id": "a8038c44-1154-48c5-9d7c-68f590d5fa43",
+                                    "tiles": [
+                                        {
+                                            "id": "dd528a21-3cf0-4a0e-b660-fe9d77269b52",
+>>>>>>> Stashed changes
                                             "x": 0,
                                             "y": 0,
                                             "sliceX": 48,
@@ -6943,9 +7050,13 @@
                                         },
                                         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                             "id": "9c6f87b1-970b-4f2c-8be9-b838efd1a6be",
 =======
                                             "id": "b5e7b7e8-79ab-4295-a1eb-1c5e691adf83",
+>>>>>>> Stashed changes
+=======
+                                            "id": "432973b2-8c35-47d2-84c8-a0cd67fea3bd",
 >>>>>>> Stashed changes
                                             "x": 8,
                                             "y": 0,
@@ -6962,6 +7073,7 @@
                                 },
                                 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                     "id": "069ad3cb-10f3-434a-819a-2d88fcb71be9",
                                     "tiles": [
                                         {
@@ -6971,6 +7083,12 @@
                                     "tiles": [
                                         {
                                             "id": "b37015db-257b-4d5f-bba6-ee4102285e78",
+>>>>>>> Stashed changes
+=======
+                                    "id": "07fcc8c7-f177-49e0-bef9-1013b1610ae8",
+                                    "tiles": [
+                                        {
+                                            "id": "766db532-b1ff-4d46-b688-82abcc6049c0",
 >>>>>>> Stashed changes
                                             "x": 0,
                                             "y": 0,
@@ -6985,9 +7103,13 @@
                                         },
                                         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                             "id": "2f23fe93-18d4-4473-ac03-e3eb9d488943",
 =======
                                             "id": "bd6f1694-2ebb-4963-9b5b-1a4cbc2e1078",
+>>>>>>> Stashed changes
+=======
+                                            "id": "4757f382-92f2-4d66-ab5d-a3c2c41f54a4",
 >>>>>>> Stashed changes
                                             "x": 8,
                                             "y": 0,
@@ -7006,6 +7128,7 @@
                         },
                         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                             "id": "12955118-a83a-46c1-b97a-f7052fd64d8f",
                             "frames": [
                                 {
@@ -7022,6 +7145,15 @@
                                         {
                                             "id": "482c0380-c0aa-4456-a1df-c0eaf11982f8",
 >>>>>>> Stashed changes
+=======
+                            "id": "c10b8d9b-2fd1-4293-bcfb-24aaa32ad30f",
+                            "frames": [
+                                {
+                                    "id": "ab8a08cd-176e-48b1-b388-fb5903ce6fcf",
+                                    "tiles": [
+                                        {
+                                            "id": "2c4a5625-7e80-43a1-8042-1616288f0200",
+>>>>>>> Stashed changes
                                             "x": 0,
                                             "y": 0,
                                             "sliceX": 16,
@@ -7035,9 +7167,13 @@
                                         },
                                         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                             "id": "299852e7-1d37-47c1-8364-3cac25cf8aa8",
 =======
                                             "id": "82158de0-23e6-4172-b96f-c490353ef27a",
+>>>>>>> Stashed changes
+=======
+                                            "id": "70810e3a-9e23-433a-a7a1-5f3710198203",
 >>>>>>> Stashed changes
                                             "x": 8,
                                             "y": 0,
@@ -7054,6 +7190,7 @@
                                 },
                                 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                     "id": "b3f631cb-8a2e-4168-921a-6e6c9867f703",
                                     "tiles": [
                                         {
@@ -7063,6 +7200,12 @@
                                     "tiles": [
                                         {
                                             "id": "10bc0422-c305-4737-8292-b4319ea18bf8",
+>>>>>>> Stashed changes
+=======
+                                    "id": "90f46d9a-60ec-4597-9d54-d5c72932ffe9",
+                                    "tiles": [
+                                        {
+                                            "id": "585343be-68bc-44c4-8212-2f02933fdb81",
 >>>>>>> Stashed changes
                                             "x": 0,
                                             "y": 0,
@@ -7077,9 +7220,13 @@
                                         },
                                         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                                             "id": "b8535d4d-a9cb-43da-bd4f-c3f3ce6c06d8",
 =======
                                             "id": "e9b50b89-5a6c-4894-bc6b-0d5fa25b2f06",
+>>>>>>> Stashed changes
+=======
+                                            "id": "02939d8e-e71a-4263-831d-ae4e980be3d2",
 >>>>>>> Stashed changes
                                             "x": 8,
                                             "y": 0,

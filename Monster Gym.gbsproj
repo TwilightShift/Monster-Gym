@@ -178,6 +178,40 @@
                     "animSpeed": 15,
                     "collisionGroup": "",
                     "symbol": "actor_6"
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_1",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Battle Master ->"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "e8a9d6c9-5f9b-4937-9731-324582b15e6b"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "c7bd1fec-f9fc-4537-b600-991206eb4707",
+                    "x": 24,
+                    "y": 11
                 }
             ],
             "triggers": [
@@ -211,7 +245,19 @@
                     "symbol": "trigger_2",
                     "width": 1,
                     "height": 1,
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "882d9da8-f490-418a-bb89-b22e5736be6d",
+                                "x": 9,
+                                "y": 11,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "2821a47a-9356-477b-8200-f7da26f20821"
+                        }
+                    ],
                     "leaveScript": []
                 },
                 {
@@ -1289,6 +1335,28 @@
                         ]
                     },
                     "id": "7b4b0841-c2f9-4d76-87ee-b385f6c3ef7f"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "17",
+                        "value": {
+                            "type": "number",
+                            "value": 10
+                        }
+                    },
+                    "id": "70e297ba-5cbe-4003-9eca-53c7d6e24066"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "18",
+                        "value": {
+                            "type": "number",
+                            "value": 20
+                        }
+                    },
+                    "id": "9190fb3e-60ba-4e22-8e37-9bb6244e742e"
                 }
             ],
             "playerHit1Script": [],
@@ -4102,9 +4170,9 @@
                             {
                                 "command": "EVENT_SWITCH_SCENE",
                                 "args": {
-                                    "sceneId": "882d9da8-f490-418a-bb89-b22e5736be6d",
-                                    "x": 8,
-                                    "y": 6,
+                                    "sceneId": "94c18861-b352-4f49-a64d-52f2e3415077",
+                                    "x": 26,
+                                    "y": 26,
                                     "direction": "",
                                     "fadeSpeed": "2"
                                 },
@@ -4634,8 +4702,8 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "9808b4fb-ca04-4b3b-a2c1-70668f0c3de3",
-                    "x": 8,
-                    "y": 4
+                    "x": 9,
+                    "y": 3
                 }
             ],
             "triggers": [],
@@ -4927,7 +4995,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "Banspeed.png"
+            "filename": "Banspeed.png",
+            "tileColors": []
         },
         {
             "id": "72625c58-a82b-41ef-abe4-76d26d032c50",
@@ -4948,7 +5017,8 @@
             "height": 32,
             "imageWidth": 256,
             "imageHeight": 256,
-            "filename": "Outside1MonsterGym.png"
+            "filename": "Outside1MonsterGym.png",
+            "tileColors": []
         },
         {
             "id": "8695bed6-d3ec-491a-b688-6e0a996ebbf9",
@@ -4958,7 +5028,8 @@
             "height": 32,
             "imageWidth": 256,
             "imageHeight": 256,
-            "filename": "Outsidelimted.png"
+            "filename": "Outsidelimted.png",
+            "tileColors": []
         },
         {
             "id": "d3284448-69b9-41c4-adb6-c309e2a308e8",
@@ -10188,8 +10259,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 3438,
-        "worldScrollY": 1498,
+        "worldScrollX": 1016,
+        "worldScrollY": 2274,
         "zoom": 450,
         "customColorsEnabled": false,
         "sgbEnabled": false,

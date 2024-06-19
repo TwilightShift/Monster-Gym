@@ -4696,15 +4696,7 @@
                     "collisionGroup": "",
                     "symbol": "actor_0",
                     "script": [],
-                    "startScript": [],
-                    "updateScript": [
-                        {
-                            "command": "EVENT_ACTOR_DEACTIVATE",
-                            "args": {
-                                "actorId": "$self$"
-                            },
-                            "id": "c2f15be3-2282-4718-933c-14560b377efe"
-                        },
+                    "startScript": [
                         {
                             "command": "EVENT_VARIABLE_MATH",
                             "args": {
@@ -4717,8 +4709,10 @@
                                 "maxValue": 2,
                                 "clamp": false
                             },
-                            "id": "e18d3626-b2f1-4771-a679-429e7b70db4c"
-                        },
+                            "id": "b5278862-9d60-45ab-b945-da9d1632a2b6"
+                        }
+                    ],
+                    "updateScript": [
                         {
                             "command": "EVENT_IF_VALUE",
                             "args": {
@@ -4726,14 +4720,14 @@
                                 "operator": "==",
                                 "comparator": 1,
                                 "__collapseElse": false,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
                                     {
                                         "command": "EVENT_ACTOR_SET_STATE",
                                         "args": {
-                                            "actorId": "630d9735-84ad-49c6-ab28-1fea22bf8d2c",
+                                            "actorId": "$self$",
                                             "spriteStateId": "Player Turn"
                                         },
                                         "id": "65a49eed-05f4-4760-94de-95d62e53fc2b"
@@ -4829,14 +4823,14 @@
                                 "operator": "==",
                                 "comparator": 2,
                                 "__collapseElse": false,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
                                     {
                                         "command": "EVENT_ACTOR_SET_STATE",
                                         "args": {
-                                            "actorId": "630d9735-84ad-49c6-ab28-1fea22bf8d2c",
+                                            "actorId": "$self$",
                                             "spriteStateId": ""
                                         },
                                         "id": "eb4585ab-c1d0-4067-bb3e-bbd40eb53386"
@@ -10194,8 +10188,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 3771,
-        "worldScrollY": 1383,
+        "worldScrollX": 3438,
+        "worldScrollY": 1498,
         "zoom": 450,
         "customColorsEnabled": false,
         "sgbEnabled": false,

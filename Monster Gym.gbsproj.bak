@@ -7703,7 +7703,7 @@
             "id": "26af79cb-2f96-4fc1-945a-89cfe48e7064",
             "symbol": "scene_17",
             "x": 720.5714285714282,
-            "y": 33.682539682539804,
+            "y": 33.873015873015994,
             "actors": [
                 {
                     "name": "",
@@ -7881,29 +7881,6 @@
                     "id": "67628fb8-dcf5-4498-9e3e-8a82a6d62486",
                     "x": 17,
                     "y": 10
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "221e6ac2-30f4-4f45-96aa-d50ee7a6c072",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_10",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "b85a1ca6-e1c2-4a24-8554-290b66c6fed1",
-                    "x": 4,
-                    "y": 14
                 }
             ],
             "triggers": [],
@@ -8978,9 +8955,9 @@
                         {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
-                                "sceneId": "447f4d02-aafe-4636-bacc-408d2f968e91",
-                                "x": 15,
-                                "y": 12,
+                                "sceneId": "26af79cb-2f96-4fc1-945a-89cfe48e7064",
+                                "x": 17,
+                                "y": 10,
                                 "direction": "",
                                 "fadeSpeed": "2"
                             },
@@ -10234,7 +10211,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "Battle_Master_house.png"
+            "filename": "Battle_Master_house.png",
+            "tileColors": []
         },
         {
             "id": "372e920d-7e87-41f3-9c49-2aa56dca3377",
@@ -10332,7 +10310,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "Raptor.png"
+            "filename": "Raptor.png",
+            "tileColors": []
         },
         {
             "id": "d3284448-69b9-41c4-adb6-c309e2a308e8",
@@ -36682,9 +36661,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 3423,
-        "worldScrollY": 47,
-        "zoom": 525,
+        "worldScrollX": 1965,
+        "worldScrollY": 3,
+        "zoom": 325,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",

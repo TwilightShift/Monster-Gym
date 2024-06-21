@@ -1596,6 +1596,18 @@
                                     "__collapse": true
                                 },
                                 "id": "6691b2a0-cb0f-4129-86a7-75b388d21686"
+                            },
+                            {
+                                "command": "EVENT_SET_VALUE",
+                                "args": {
+                                    "variable": "26",
+                                    "value": {
+                                        "type": "number",
+                                        "value": 1
+                                    },
+                                    "__collapse": true
+                                },
+                                "id": "060f7c9f-359a-4ac1-922f-ca8bd665373f"
                             }
                         ],
                         "false": [
@@ -1603,7 +1615,7 @@
                                 "command": "EVENT_IF_TRUE",
                                 "args": {
                                     "variable": "14",
-                                    "__collapseElse": true
+                                    "__collapseElse": false
                                 },
                                 "children": {
                                     "true": [
@@ -1651,9 +1663,92 @@
                                                 "__collapse": true
                                             },
                                             "id": "87f14ccf-1ab4-49ad-b447-e4e37910ba04"
+                                        },
+                                        {
+                                            "command": "EVENT_SET_VALUE",
+                                            "args": {
+                                                "variable": "26",
+                                                "value": {
+                                                    "type": "number",
+                                                    "value": 2
+                                                },
+                                                "__collapse": true
+                                            },
+                                            "id": "d03f279e-2e9d-45f4-8e6e-911a08e87227"
                                         }
                                     ],
-                                    "false": []
+                                    "false": [
+                                        {
+                                            "command": "EVENT_IF_TRUE",
+                                            "args": {
+                                                "variable": "16",
+                                                "__collapseElse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_PLAYER_SET_SPRITE",
+                                                        "args": {
+                                                            "spriteSheetId": "221e6ac2-30f4-4f45-96aa-d50ee7a6c072",
+                                                            "persist": false,
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "89c92e1b-6701-490d-8adf-3e4b79b43ec7"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_SET_VALUE",
+                                                        "args": {
+                                                            "variable": "20",
+                                                            "value": {
+                                                                "type": "number",
+                                                                "value": 1
+                                                            },
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "03e45b90-cb37-44be-8fbb-f683688c18ea"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_SET_VALUE",
+                                                        "args": {
+                                                            "variable": "21",
+                                                            "value": {
+                                                                "type": "number",
+                                                                "value": 2
+                                                            },
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "c573aee4-da73-4e6f-9868-e468d854e6d5"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_SET_VALUE",
+                                                        "args": {
+                                                            "variable": "22",
+                                                            "value": {
+                                                                "type": "number",
+                                                                "value": 3
+                                                            },
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "eb0de605-cd11-4730-a111-29436b8c673b"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_SET_VALUE",
+                                                        "args": {
+                                                            "variable": "26",
+                                                            "value": {
+                                                                "type": "number",
+                                                                "value": 3
+                                                            },
+                                                            "__collapse": true
+                                                        },
+                                                        "id": "86bc2398-a203-4d0f-80b1-5c477d482e2b"
+                                                    }
+                                                ],
+                                                "false": []
+                                            },
+                                            "id": "5ead289a-3885-4d7b-80ec-b6569f242fed"
+                                        }
+                                    ]
                                 },
                                 "id": "141742f9-d919-4b55-84ef-9ed2b11cf17a"
                             }
@@ -4858,6 +4953,93 @@
                         }
                     },
                     "id": "22cf040f-8033-4de9-ac4c-6141dd8c999f"
+                },
+                {
+                    "command": "EVENT_SWITCH",
+                    "args": {
+                        "variable": "26",
+                        "choices": 3,
+                        "__collapseCase0": false,
+                        "value0": 1,
+                        "__collapseCase1": false,
+                        "value1": 2,
+                        "__collapseCase2": false,
+                        "value2": 3,
+                        "__collapseCase3": false,
+                        "value3": 4,
+                        "__collapseCase4": false,
+                        "value4": 5,
+                        "__collapseCase5": false,
+                        "value5": 6,
+                        "__collapseCase6": false,
+                        "value6": 7,
+                        "__collapseCase7": false,
+                        "value7": 8,
+                        "__collapseCase8": false,
+                        "value8": 9,
+                        "__collapseCase9": false,
+                        "value9": 10,
+                        "__collapseCase10": false,
+                        "value10": 11,
+                        "__collapseCase11": false,
+                        "value11": 12,
+                        "__collapseCase12": false,
+                        "value12": 13,
+                        "__collapseCase13": false,
+                        "value13": 14,
+                        "__collapseCase14": false,
+                        "value14": 15,
+                        "__collapseCase15": false,
+                        "value15": 16,
+                        "__collapseElse": false
+                    },
+                    "children": {
+                        "true0": [
+                            {
+                                "command": "EVENT_PLAYER_SET_SPRITE",
+                                "args": {
+                                    "spriteSheetId": "e58c4367-4574-44f6-8d19-cfde864e918c",
+                                    "persist": false
+                                },
+                                "id": "f7be07a1-c4d5-4de2-9997-029ed44920bf"
+                            }
+                        ],
+                        "true1": [
+                            {
+                                "command": "EVENT_PLAYER_SET_SPRITE",
+                                "args": {
+                                    "spriteSheetId": "4a6cfc83-535c-45e0-a642-dcb9b586c732",
+                                    "persist": false
+                                },
+                                "id": "3dc98874-34d8-40e7-a62e-73b384540b3f"
+                            }
+                        ],
+                        "true2": [
+                            {
+                                "command": "EVENT_PLAYER_SET_SPRITE",
+                                "args": {
+                                    "spriteSheetId": "221e6ac2-30f4-4f45-96aa-d50ee7a6c072",
+                                    "persist": false
+                                },
+                                "id": "c2f2f6c7-bf6f-42f4-abf0-c80d38c30b89"
+                            }
+                        ],
+                        "true3": [],
+                        "true4": [],
+                        "true5": [],
+                        "true6": [],
+                        "true7": [],
+                        "true8": [],
+                        "true9": [],
+                        "true10": [],
+                        "true11": [],
+                        "true12": [],
+                        "true13": [],
+                        "true14": [],
+                        "true15": [],
+                        "false": []
+                    },
+                    "id": "82c61089-1e24-4f08-bbe7-23fa00d20066"
                 }
             ],
             "playerHit1Script": [],
@@ -5179,6 +5361,80 @@
                                 ]
                             },
                             "id": "4885d112-2285-40ca-be1d-c9b4d8ec0ff1"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "13",
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_SET_VALUE",
+                                        "args": {
+                                            "variable": "L5",
+                                            "value": {
+                                                "type": "number",
+                                                "value": 1
+                                            }
+                                        },
+                                        "id": "9f930b47-0434-4a82-9311-3d0cbae60e92"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_IF_TRUE",
+                                        "args": {
+                                            "variable": "14",
+                                            "__collapseElse": false
+                                        },
+                                        "children": {
+                                            "true": [
+                                                {
+                                                    "command": "EVENT_SET_VALUE",
+                                                    "args": {
+                                                        "variable": "L5",
+                                                        "value": {
+                                                            "type": "number",
+                                                            "value": 2
+                                                        }
+                                                    },
+                                                    "id": "5ed006d8-2da5-4bb2-8805-fbb21abfd98d"
+                                                }
+                                            ],
+                                            "false": [
+                                                {
+                                                    "command": "EVENT_IF_TRUE",
+                                                    "args": {
+                                                        "variable": "16",
+                                                        "__collapseElse": true
+                                                    },
+                                                    "children": {
+                                                        "true": [
+                                                            {
+                                                                "command": "EVENT_SET_VALUE",
+                                                                "args": {
+                                                                    "variable": "L5",
+                                                                    "value": {
+                                                                        "type": "number",
+                                                                        "value": 3
+                                                                    }
+                                                                },
+                                                                "id": "c6079f51-4464-470c-bac3-9a4eb62656e6"
+                                                            }
+                                                        ],
+                                                        "false": []
+                                                    },
+                                                    "id": "65f919ef-ff49-4487-94c3-69a506596224"
+                                                }
+                                            ]
+                                        },
+                                        "id": "2a4be037-d955-498e-8191-a811c2f3e1f6"
+                                    }
+                                ]
+                            },
+                            "id": "fd26e4ac-ddeb-47b2-b0f4-c6fe3b915d34"
                         }
                     ],
                     "updateScript": [
@@ -5207,7 +5463,7 @@
                                         "args": {
                                             "variable": "L1",
                                             "items": 2,
-                                            "option1": "Attack",
+                                            "option1": "Attacks",
                                             "option2": "Run",
                                             "option3": "",
                                             "option4": "",
@@ -5216,130 +5472,1032 @@
                                             "option7": "",
                                             "option8": "",
                                             "cancelOnB": true,
-                                            "layout": "menu",
-                                            "cancelOnLastOption": true,
-                                            "__collapse": true
+                                            "layout": "dialogue",
+                                            "cancelOnLastOption": false,
+                                            "__collapse": false
                                         },
                                         "id": "779e1467-0c10-44fe-b1e1-1508e8c09fb8"
                                     },
                                     {
-                                        "command": "EVENT_IF_VALUE",
+                                        "command": "EVENT_SWITCH",
                                         "args": {
                                             "variable": "L1",
-                                            "operator": "==",
-                                            "comparator": 1,
-                                            "__collapseElse": true,
-                                            "__collapse": true
+                                            "choices": 2,
+                                            "__collapseCase0": true,
+                                            "value0": 1,
+                                            "__collapseCase1": false,
+                                            "value1": 2,
+                                            "__collapseCase2": false,
+                                            "value2": 3,
+                                            "__collapseCase3": false,
+                                            "value3": 4,
+                                            "__collapseCase4": false,
+                                            "value4": 5,
+                                            "__collapseCase5": false,
+                                            "value5": 6,
+                                            "__collapseCase6": false,
+                                            "value6": 7,
+                                            "__collapseCase7": false,
+                                            "value7": 8,
+                                            "__collapseCase8": false,
+                                            "value8": 9,
+                                            "__collapseCase9": false,
+                                            "value9": 10,
+                                            "__collapseCase10": false,
+                                            "value10": 11,
+                                            "__collapseCase11": false,
+                                            "value11": 12,
+                                            "__collapseCase12": false,
+                                            "value12": 13,
+                                            "__collapseCase13": false,
+                                            "value13": 14,
+                                            "__collapseCase14": false,
+                                            "value14": 15,
+                                            "__collapseCase15": false,
+                                            "value15": 16,
+                                            "__collapseElse": false,
+                                            "__collapse": false
                                         },
                                         "children": {
-                                            "true": [
+                                            "true0": [
                                                 {
-                                                    "command": "EVENT_CAMERA_SHAKE",
+                                                    "command": "EVENT_SWITCH",
                                                     "args": {
-                                                        "time": 0.5,
-                                                        "frames": 30,
-                                                        "shakeDirection": "horizontal",
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "ceb05198-da20-43ec-b2bf-2b9679e1f65a"
-                                                },
-                                                {
-                                                    "command": "EVENT_VARIABLE_MATH",
-                                                    "args": {
-                                                        "vectorX": "L0",
-                                                        "operation": "set",
-                                                        "other": "var",
-                                                        "vectorY": "20",
-                                                        "value": "0",
-                                                        "minValue": null,
-                                                        "maxValue": 3,
-                                                        "clamp": false,
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "ec373f23-14d6-4a04-8038-870016735f74"
-                                                },
-                                                {
-                                                    "command": "EVENT_VARIABLE_MATH",
-                                                    "args": {
-                                                        "vectorX": "L0",
-                                                        "operation": "sub",
-                                                        "other": "var",
-                                                        "vectorY": "24",
-                                                        "value": "0",
-                                                        "minValue": null,
-                                                        "maxValue": 3,
-                                                        "clamp": false,
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "bde7d04a-9a46-4a8e-9514-8ea7091f4e0b"
-                                                },
-                                                {
-                                                    "command": "EVENT_IF_VALUE",
-                                                    "args": {
-                                                        "variable": "L0",
-                                                        "operator": "<=",
-                                                        "comparator": "0",
+                                                        "variable": "L5",
+                                                        "choices": 3,
+                                                        "__collapseCase0": false,
+                                                        "value0": 1,
+                                                        "__collapseCase1": false,
+                                                        "value1": 2,
+                                                        "__collapseCase2": false,
+                                                        "value2": 3,
+                                                        "__collapseCase3": false,
+                                                        "value3": 4,
+                                                        "__collapseCase4": false,
+                                                        "value4": 5,
+                                                        "__collapseCase5": false,
+                                                        "value5": 6,
+                                                        "__collapseCase6": false,
+                                                        "value6": 7,
+                                                        "__collapseCase7": false,
+                                                        "value7": 8,
+                                                        "__collapseCase8": false,
+                                                        "value8": 9,
+                                                        "__collapseCase9": false,
+                                                        "value9": 10,
+                                                        "__collapseCase10": false,
+                                                        "value10": 11,
+                                                        "__collapseCase11": false,
+                                                        "value11": 12,
+                                                        "__collapseCase12": false,
+                                                        "value12": 13,
+                                                        "__collapseCase13": false,
+                                                        "value13": 14,
+                                                        "__collapseCase14": false,
+                                                        "value14": 15,
+                                                        "__collapseCase15": false,
+                                                        "value15": 16,
                                                         "__collapseElse": true
                                                     },
                                                     "children": {
-                                                        "true": [
+                                                        "true0": [
                                                             {
-                                                                "command": "EVENT_SET_VALUE",
+                                                                "command": "EVENT_IF_VALUE",
                                                                 "args": {
-                                                                    "variable": "L0",
-                                                                    "value": {
-                                                                        "type": "number",
-                                                                        "value": 1
-                                                                    }
+                                                                    "variable": "L1",
+                                                                    "operator": "==",
+                                                                    "comparator": 1,
+                                                                    "__collapseElse": true,
+                                                                    "__collapse": true
                                                                 },
-                                                                "id": "b51034b2-0a6e-4ff6-999b-193ad0a47758"
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "command": "EVENT_MENU",
+                                                                            "args": {
+                                                                                "variable": "L2",
+                                                                                "items": 2,
+                                                                                "option1": "Bunny Hop",
+                                                                                "option2": "Carroty Chop",
+                                                                                "option3": "",
+                                                                                "option4": "",
+                                                                                "option5": "",
+                                                                                "option6": "",
+                                                                                "option7": "",
+                                                                                "option8": "",
+                                                                                "cancelOnB": true,
+                                                                                "layout": "dialogue",
+                                                                                "cancelOnLastOption": false,
+                                                                                "__collapse": false
+                                                                            },
+                                                                            "id": "7306132f-1fa3-4b6d-97de-37445828182a"
+                                                                        },
+                                                                        {
+                                                                            "command": "EVENT_SWITCH",
+                                                                            "args": {
+                                                                                "variable": "L2",
+                                                                                "choices": 2,
+                                                                                "__collapseCase0": false,
+                                                                                "value0": 1,
+                                                                                "__collapseCase1": false,
+                                                                                "value1": 2,
+                                                                                "__collapseCase2": false,
+                                                                                "value2": 3,
+                                                                                "__collapseCase3": false,
+                                                                                "value3": 4,
+                                                                                "__collapseCase4": false,
+                                                                                "value4": 5,
+                                                                                "__collapseCase5": false,
+                                                                                "value5": 6,
+                                                                                "__collapseCase6": false,
+                                                                                "value6": 7,
+                                                                                "__collapseCase7": false,
+                                                                                "value7": 8,
+                                                                                "__collapseCase8": false,
+                                                                                "value8": 9,
+                                                                                "__collapseCase9": false,
+                                                                                "value9": 10,
+                                                                                "__collapseCase10": false,
+                                                                                "value10": 11,
+                                                                                "__collapseCase11": false,
+                                                                                "value11": 12,
+                                                                                "__collapseCase12": false,
+                                                                                "value12": 13,
+                                                                                "__collapseCase13": false,
+                                                                                "value13": 14,
+                                                                                "__collapseCase14": false,
+                                                                                "value14": 15,
+                                                                                "__collapseCase15": false,
+                                                                                "value15": 16,
+                                                                                "__collapseElse": false
+                                                                            },
+                                                                            "children": {
+                                                                                "true0": [
+                                                                                    {
+                                                                                        "command": "EVENT_CAMERA_SHAKE",
+                                                                                        "args": {
+                                                                                            "time": 0.5,
+                                                                                            "frames": 30,
+                                                                                            "shakeDirection": "horizontal",
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "ceb05198-da20-43ec-b2bf-2b9679e1f65a"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_VARIABLE_MATH",
+                                                                                        "args": {
+                                                                                            "vectorX": "L0",
+                                                                                            "operation": "set",
+                                                                                            "other": "var",
+                                                                                            "vectorY": "20",
+                                                                                            "value": "0",
+                                                                                            "minValue": null,
+                                                                                            "maxValue": 3,
+                                                                                            "clamp": false,
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "ec373f23-14d6-4a04-8038-870016735f74"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_VARIABLE_MATH",
+                                                                                        "args": {
+                                                                                            "vectorX": "L0",
+                                                                                            "operation": "sub",
+                                                                                            "other": "var",
+                                                                                            "vectorY": "24",
+                                                                                            "value": "0",
+                                                                                            "minValue": null,
+                                                                                            "maxValue": 3,
+                                                                                            "clamp": false,
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "bde7d04a-9a46-4a8e-9514-8ea7091f4e0b"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_IF_VALUE",
+                                                                                        "args": {
+                                                                                            "variable": "L0",
+                                                                                            "operator": "<=",
+                                                                                            "comparator": "0",
+                                                                                            "__collapseElse": true,
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "children": {
+                                                                                            "true": [
+                                                                                                {
+                                                                                                    "command": "EVENT_SET_VALUE",
+                                                                                                    "args": {
+                                                                                                        "variable": "L0",
+                                                                                                        "value": {
+                                                                                                            "type": "number",
+                                                                                                            "value": 1
+                                                                                                        }
+                                                                                                    },
+                                                                                                    "id": "b51034b2-0a6e-4ff6-999b-193ad0a47758"
+                                                                                                }
+                                                                                            ],
+                                                                                            "false": []
+                                                                                        },
+                                                                                        "id": "59c40b05-8f7a-4a25-a82a-16d8eff8af9f"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_VARIABLE_MATH",
+                                                                                        "args": {
+                                                                                            "vectorX": "18",
+                                                                                            "operation": "sub",
+                                                                                            "other": "var",
+                                                                                            "vectorY": "20",
+                                                                                            "value": "0",
+                                                                                            "minValue": null,
+                                                                                            "maxValue": 3,
+                                                                                            "clamp": false,
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "e046b44c-7003-42bd-8b93-9f51ab0c2440"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_TEXT",
+                                                                                        "args": {
+                                                                                            "text": [
+                                                                                                "You used Bunny\nHop! The enemy",
+                                                                                                "has $18$HP\nleft!"
+                                                                                            ],
+                                                                                            "avatarId": ""
+                                                                                        },
+                                                                                        "id": "11224638-b20d-4349-b8fd-ab17f43c5745"
+                                                                                    }
+                                                                                ],
+                                                                                "true1": [
+                                                                                    {
+                                                                                        "command": "EVENT_CAMERA_SHAKE",
+                                                                                        "args": {
+                                                                                            "time": 0.5,
+                                                                                            "frames": 30,
+                                                                                            "shakeDirection": "horizontal",
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "a6486df1-a237-4922-b3f6-cb8aa0110127"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_VARIABLE_MATH",
+                                                                                        "args": {
+                                                                                            "vectorX": "L0",
+                                                                                            "operation": "set",
+                                                                                            "other": "var",
+                                                                                            "vectorY": "20",
+                                                                                            "value": "0",
+                                                                                            "minValue": null,
+                                                                                            "maxValue": 3,
+                                                                                            "clamp": false,
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "012600c2-3a8b-42c5-93d9-7b98f54c9e15"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_VARIABLE_MATH",
+                                                                                        "args": {
+                                                                                            "vectorX": "L0",
+                                                                                            "operation": "sub",
+                                                                                            "other": "var",
+                                                                                            "vectorY": "24",
+                                                                                            "value": "0",
+                                                                                            "minValue": null,
+                                                                                            "maxValue": 3,
+                                                                                            "clamp": false,
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "d382a7fd-4a3a-4e2d-a3ff-06bdb0b2976d"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_IF_VALUE",
+                                                                                        "args": {
+                                                                                            "variable": "L0",
+                                                                                            "operator": "<=",
+                                                                                            "comparator": "0",
+                                                                                            "__collapseElse": true,
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "children": {
+                                                                                            "true": [
+                                                                                                {
+                                                                                                    "command": "EVENT_SET_VALUE",
+                                                                                                    "args": {
+                                                                                                        "variable": "L0",
+                                                                                                        "value": {
+                                                                                                            "type": "number",
+                                                                                                            "value": 1
+                                                                                                        }
+                                                                                                    },
+                                                                                                    "id": "f9723fc8-4817-4160-8a13-d1c5b28c393e"
+                                                                                                }
+                                                                                            ],
+                                                                                            "false": []
+                                                                                        },
+                                                                                        "id": "f2df6eaf-7f02-4d07-95a8-d43d0aeb864c"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_VARIABLE_MATH",
+                                                                                        "args": {
+                                                                                            "vectorX": "18",
+                                                                                            "operation": "sub",
+                                                                                            "other": "var",
+                                                                                            "vectorY": "20",
+                                                                                            "value": "0",
+                                                                                            "minValue": null,
+                                                                                            "maxValue": 3,
+                                                                                            "clamp": false,
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "dacd989e-2017-431e-adb4-7a3014819e46"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_TEXT",
+                                                                                        "args": {
+                                                                                            "text": [
+                                                                                                "You used Carroty\nChop! The enemy",
+                                                                                                "has $18$HP\nleft!"
+                                                                                            ],
+                                                                                            "avatarId": ""
+                                                                                        },
+                                                                                        "id": "543c887e-8fc8-4aa8-bcc0-d310a611755e"
+                                                                                    }
+                                                                                ],
+                                                                                "true2": [],
+                                                                                "true3": [],
+                                                                                "true4": [],
+                                                                                "true5": [],
+                                                                                "true6": [],
+                                                                                "true7": [],
+                                                                                "true8": [],
+                                                                                "true9": [],
+                                                                                "true10": [],
+                                                                                "true11": [],
+                                                                                "true12": [],
+                                                                                "true13": [],
+                                                                                "true14": [],
+                                                                                "true15": [],
+                                                                                "false": []
+                                                                            },
+                                                                            "id": "f4af8921-70c1-4c2a-9530-57696fcca315"
+                                                                        },
+                                                                        {
+                                                                            "command": "EVENT_SET_VALUE",
+                                                                            "args": {
+                                                                                "variable": "19",
+                                                                                "value": {
+                                                                                    "type": "number",
+                                                                                    "value": 2
+                                                                                }
+                                                                            },
+                                                                            "id": "162580b5-47be-404e-ac22-bbc24477f0a6"
+                                                                        }
+                                                                    ],
+                                                                    "false": []
+                                                                },
+                                                                "id": "c9d67788-9037-45df-b4a9-6e84c6f2a6cb"
                                                             }
                                                         ],
+                                                        "true1": [
+                                                            {
+                                                                "command": "EVENT_IF_VALUE",
+                                                                "args": {
+                                                                    "variable": "L1",
+                                                                    "operator": "==",
+                                                                    "comparator": 1,
+                                                                    "__collapseElse": true,
+                                                                    "__collapse": true
+                                                                },
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "command": "EVENT_MENU",
+                                                                            "args": {
+                                                                                "variable": "L2",
+                                                                                "items": 2,
+                                                                                "option1": "Shield Bash",
+                                                                                "option2": "Slam",
+                                                                                "option3": "",
+                                                                                "option4": "",
+                                                                                "option5": "",
+                                                                                "option6": "",
+                                                                                "option7": "",
+                                                                                "option8": "",
+                                                                                "cancelOnB": true,
+                                                                                "layout": "dialogue",
+                                                                                "cancelOnLastOption": false,
+                                                                                "__collapse": false
+                                                                            },
+                                                                            "id": "3868d2e7-0760-49dc-8ca9-76f342dbc235"
+                                                                        },
+                                                                        {
+                                                                            "command": "EVENT_SWITCH",
+                                                                            "args": {
+                                                                                "variable": "L2",
+                                                                                "choices": 2,
+                                                                                "__collapseCase0": false,
+                                                                                "value0": 1,
+                                                                                "__collapseCase1": false,
+                                                                                "value1": 2,
+                                                                                "__collapseCase2": false,
+                                                                                "value2": 3,
+                                                                                "__collapseCase3": false,
+                                                                                "value3": 4,
+                                                                                "__collapseCase4": false,
+                                                                                "value4": 5,
+                                                                                "__collapseCase5": false,
+                                                                                "value5": 6,
+                                                                                "__collapseCase6": false,
+                                                                                "value6": 7,
+                                                                                "__collapseCase7": false,
+                                                                                "value7": 8,
+                                                                                "__collapseCase8": false,
+                                                                                "value8": 9,
+                                                                                "__collapseCase9": false,
+                                                                                "value9": 10,
+                                                                                "__collapseCase10": false,
+                                                                                "value10": 11,
+                                                                                "__collapseCase11": false,
+                                                                                "value11": 12,
+                                                                                "__collapseCase12": false,
+                                                                                "value12": 13,
+                                                                                "__collapseCase13": false,
+                                                                                "value13": 14,
+                                                                                "__collapseCase14": false,
+                                                                                "value14": 15,
+                                                                                "__collapseCase15": false,
+                                                                                "value15": 16,
+                                                                                "__collapseElse": false
+                                                                            },
+                                                                            "children": {
+                                                                                "true0": [
+                                                                                    {
+                                                                                        "command": "EVENT_CAMERA_SHAKE",
+                                                                                        "args": {
+                                                                                            "time": 0.5,
+                                                                                            "frames": 30,
+                                                                                            "shakeDirection": "horizontal",
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "f67d5b4a-7d89-479d-9d3c-3454653d2356"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_VARIABLE_MATH",
+                                                                                        "args": {
+                                                                                            "vectorX": "L0",
+                                                                                            "operation": "set",
+                                                                                            "other": "var",
+                                                                                            "vectorY": "20",
+                                                                                            "value": "0",
+                                                                                            "minValue": null,
+                                                                                            "maxValue": 3,
+                                                                                            "clamp": false,
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "35626936-5bbc-4afd-9172-c31d360276b8"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_VARIABLE_MATH",
+                                                                                        "args": {
+                                                                                            "vectorX": "L0",
+                                                                                            "operation": "sub",
+                                                                                            "other": "var",
+                                                                                            "vectorY": "24",
+                                                                                            "value": "0",
+                                                                                            "minValue": null,
+                                                                                            "maxValue": 3,
+                                                                                            "clamp": false,
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "90315463-7722-4409-8a33-045036898b37"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_IF_VALUE",
+                                                                                        "args": {
+                                                                                            "variable": "L0",
+                                                                                            "operator": "<=",
+                                                                                            "comparator": "0",
+                                                                                            "__collapseElse": true,
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "children": {
+                                                                                            "true": [
+                                                                                                {
+                                                                                                    "command": "EVENT_SET_VALUE",
+                                                                                                    "args": {
+                                                                                                        "variable": "L0",
+                                                                                                        "value": {
+                                                                                                            "type": "number",
+                                                                                                            "value": 1
+                                                                                                        }
+                                                                                                    },
+                                                                                                    "id": "074df0fb-00ff-492a-9b87-2146d2563198"
+                                                                                                }
+                                                                                            ],
+                                                                                            "false": []
+                                                                                        },
+                                                                                        "id": "af491797-308d-4d87-8ee6-4cfed1c15ca4"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_VARIABLE_MATH",
+                                                                                        "args": {
+                                                                                            "vectorX": "18",
+                                                                                            "operation": "sub",
+                                                                                            "other": "var",
+                                                                                            "vectorY": "20",
+                                                                                            "value": "0",
+                                                                                            "minValue": null,
+                                                                                            "maxValue": 3,
+                                                                                            "clamp": false,
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "e41a4de4-6a0c-4669-b699-dae6fff77e72"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_TEXT",
+                                                                                        "args": {
+                                                                                            "text": [
+                                                                                                "You used Shield\nBash! The enemy",
+                                                                                                "has $18$HP\nleft!"
+                                                                                            ],
+                                                                                            "avatarId": ""
+                                                                                        },
+                                                                                        "id": "354b896f-cfc0-466b-9fcc-fc43fb0164e9"
+                                                                                    }
+                                                                                ],
+                                                                                "true1": [
+                                                                                    {
+                                                                                        "command": "EVENT_CAMERA_SHAKE",
+                                                                                        "args": {
+                                                                                            "time": 0.5,
+                                                                                            "frames": 30,
+                                                                                            "shakeDirection": "horizontal",
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "a93f8bfa-5b7f-4919-b27b-dc38e1367825"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_VARIABLE_MATH",
+                                                                                        "args": {
+                                                                                            "vectorX": "L0",
+                                                                                            "operation": "set",
+                                                                                            "other": "var",
+                                                                                            "vectorY": "20",
+                                                                                            "value": "0",
+                                                                                            "minValue": null,
+                                                                                            "maxValue": 3,
+                                                                                            "clamp": false,
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "5a788a35-d60b-45d7-83f7-e3a771e130a0"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_VARIABLE_MATH",
+                                                                                        "args": {
+                                                                                            "vectorX": "L0",
+                                                                                            "operation": "sub",
+                                                                                            "other": "var",
+                                                                                            "vectorY": "24",
+                                                                                            "value": "0",
+                                                                                            "minValue": null,
+                                                                                            "maxValue": 3,
+                                                                                            "clamp": false,
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "7dc7c722-471f-46ca-acfa-1ca24a71a3e4"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_IF_VALUE",
+                                                                                        "args": {
+                                                                                            "variable": "L0",
+                                                                                            "operator": "<=",
+                                                                                            "comparator": "0",
+                                                                                            "__collapseElse": true,
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "children": {
+                                                                                            "true": [
+                                                                                                {
+                                                                                                    "command": "EVENT_SET_VALUE",
+                                                                                                    "args": {
+                                                                                                        "variable": "L0",
+                                                                                                        "value": {
+                                                                                                            "type": "number",
+                                                                                                            "value": 1
+                                                                                                        }
+                                                                                                    },
+                                                                                                    "id": "1d821def-c656-41d4-9c41-c4b1e15cd1ff"
+                                                                                                }
+                                                                                            ],
+                                                                                            "false": []
+                                                                                        },
+                                                                                        "id": "d0edf1e9-cad0-44ff-831c-30df512c5645"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_VARIABLE_MATH",
+                                                                                        "args": {
+                                                                                            "vectorX": "18",
+                                                                                            "operation": "sub",
+                                                                                            "other": "var",
+                                                                                            "vectorY": "20",
+                                                                                            "value": "0",
+                                                                                            "minValue": null,
+                                                                                            "maxValue": 3,
+                                                                                            "clamp": false,
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "033755c6-6b34-4c3c-a7ec-9839d80bac1b"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_TEXT",
+                                                                                        "args": {
+                                                                                            "text": [
+                                                                                                "You used Slam! \nThe enemy",
+                                                                                                "has $18$HP\nleft!"
+                                                                                            ],
+                                                                                            "avatarId": ""
+                                                                                        },
+                                                                                        "id": "6b9136aa-908c-4ce2-8148-0f1421a2d039"
+                                                                                    }
+                                                                                ],
+                                                                                "true2": [],
+                                                                                "true3": [],
+                                                                                "true4": [],
+                                                                                "true5": [],
+                                                                                "true6": [],
+                                                                                "true7": [],
+                                                                                "true8": [],
+                                                                                "true9": [],
+                                                                                "true10": [],
+                                                                                "true11": [],
+                                                                                "true12": [],
+                                                                                "true13": [],
+                                                                                "true14": [],
+                                                                                "true15": [],
+                                                                                "false": []
+                                                                            },
+                                                                            "id": "a1ee6f72-4657-4a5d-ac03-c428ba8bcde8"
+                                                                        },
+                                                                        {
+                                                                            "command": "EVENT_SET_VALUE",
+                                                                            "args": {
+                                                                                "variable": "19",
+                                                                                "value": {
+                                                                                    "type": "number",
+                                                                                    "value": 2
+                                                                                }
+                                                                            },
+                                                                            "id": "524249e8-e294-4c7d-80b6-c7cd07f6ce95"
+                                                                        }
+                                                                    ],
+                                                                    "false": []
+                                                                },
+                                                                "id": "4bb1699c-6dea-4125-ae48-529ed0148465"
+                                                            }
+                                                        ],
+                                                        "true2": [
+                                                            {
+                                                                "command": "EVENT_IF_VALUE",
+                                                                "args": {
+                                                                    "variable": "L1",
+                                                                    "operator": "==",
+                                                                    "comparator": 1,
+                                                                    "__collapseElse": true,
+                                                                    "__collapse": true
+                                                                },
+                                                                "children": {
+                                                                    "true": [
+                                                                        {
+                                                                            "command": "EVENT_MENU",
+                                                                            "args": {
+                                                                                "variable": "L2",
+                                                                                "items": 2,
+                                                                                "option1": "Phantom Speed",
+                                                                                "option2": "Ghost Trick",
+                                                                                "option3": "",
+                                                                                "option4": "",
+                                                                                "option5": "",
+                                                                                "option6": "",
+                                                                                "option7": "",
+                                                                                "option8": "",
+                                                                                "cancelOnB": true,
+                                                                                "layout": "dialogue",
+                                                                                "cancelOnLastOption": false,
+                                                                                "__collapse": false
+                                                                            },
+                                                                            "id": "aef5b08c-8a90-4b72-a35c-d9c74aebf8bc"
+                                                                        },
+                                                                        {
+                                                                            "command": "EVENT_SWITCH",
+                                                                            "args": {
+                                                                                "variable": "L2",
+                                                                                "choices": 2,
+                                                                                "__collapseCase0": false,
+                                                                                "value0": 1,
+                                                                                "__collapseCase1": false,
+                                                                                "value1": 2,
+                                                                                "__collapseCase2": false,
+                                                                                "value2": 3,
+                                                                                "__collapseCase3": false,
+                                                                                "value3": 4,
+                                                                                "__collapseCase4": false,
+                                                                                "value4": 5,
+                                                                                "__collapseCase5": false,
+                                                                                "value5": 6,
+                                                                                "__collapseCase6": false,
+                                                                                "value6": 7,
+                                                                                "__collapseCase7": false,
+                                                                                "value7": 8,
+                                                                                "__collapseCase8": false,
+                                                                                "value8": 9,
+                                                                                "__collapseCase9": false,
+                                                                                "value9": 10,
+                                                                                "__collapseCase10": false,
+                                                                                "value10": 11,
+                                                                                "__collapseCase11": false,
+                                                                                "value11": 12,
+                                                                                "__collapseCase12": false,
+                                                                                "value12": 13,
+                                                                                "__collapseCase13": false,
+                                                                                "value13": 14,
+                                                                                "__collapseCase14": false,
+                                                                                "value14": 15,
+                                                                                "__collapseCase15": false,
+                                                                                "value15": 16,
+                                                                                "__collapseElse": false
+                                                                            },
+                                                                            "children": {
+                                                                                "true0": [
+                                                                                    {
+                                                                                        "command": "EVENT_CAMERA_SHAKE",
+                                                                                        "args": {
+                                                                                            "time": 0.5,
+                                                                                            "frames": 30,
+                                                                                            "shakeDirection": "horizontal",
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "9f5de7ec-2b19-413a-9150-d89660b2f464"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_VARIABLE_MATH",
+                                                                                        "args": {
+                                                                                            "vectorX": "L0",
+                                                                                            "operation": "set",
+                                                                                            "other": "var",
+                                                                                            "vectorY": "20",
+                                                                                            "value": "0",
+                                                                                            "minValue": null,
+                                                                                            "maxValue": 3,
+                                                                                            "clamp": false,
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "de7a98d8-ea2a-46a3-b752-0614b3c46981"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_VARIABLE_MATH",
+                                                                                        "args": {
+                                                                                            "vectorX": "L0",
+                                                                                            "operation": "sub",
+                                                                                            "other": "var",
+                                                                                            "vectorY": "24",
+                                                                                            "value": "0",
+                                                                                            "minValue": null,
+                                                                                            "maxValue": 3,
+                                                                                            "clamp": false,
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "34e267e0-7702-48dd-beb9-6d633705ac55"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_IF_VALUE",
+                                                                                        "args": {
+                                                                                            "variable": "L0",
+                                                                                            "operator": "<=",
+                                                                                            "comparator": "0",
+                                                                                            "__collapseElse": true,
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "children": {
+                                                                                            "true": [
+                                                                                                {
+                                                                                                    "command": "EVENT_SET_VALUE",
+                                                                                                    "args": {
+                                                                                                        "variable": "L0",
+                                                                                                        "value": {
+                                                                                                            "type": "number",
+                                                                                                            "value": 1
+                                                                                                        }
+                                                                                                    },
+                                                                                                    "id": "719501ef-e0c6-4349-afce-f0b3f66f9e01"
+                                                                                                }
+                                                                                            ],
+                                                                                            "false": []
+                                                                                        },
+                                                                                        "id": "40c0fc9d-f21a-443e-bddb-a312a090e558"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_VARIABLE_MATH",
+                                                                                        "args": {
+                                                                                            "vectorX": "18",
+                                                                                            "operation": "sub",
+                                                                                            "other": "var",
+                                                                                            "vectorY": "20",
+                                                                                            "value": "0",
+                                                                                            "minValue": null,
+                                                                                            "maxValue": 3,
+                                                                                            "clamp": false,
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "d2918191-c815-4a6f-8746-3122b8d20bdc"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_TEXT",
+                                                                                        "args": {
+                                                                                            "text": [
+                                                                                                "You used Phantom\nSpeed! The enemy",
+                                                                                                "has $18$HP\nleft!"
+                                                                                            ],
+                                                                                            "avatarId": ""
+                                                                                        },
+                                                                                        "id": "236ec2c5-aed0-4a71-8b1b-a99b049e16cb"
+                                                                                    }
+                                                                                ],
+                                                                                "true1": [
+                                                                                    {
+                                                                                        "command": "EVENT_CAMERA_SHAKE",
+                                                                                        "args": {
+                                                                                            "time": 0.5,
+                                                                                            "frames": 30,
+                                                                                            "shakeDirection": "horizontal",
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "d2e940dd-c73b-4985-bf80-cb2983f425ad"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_VARIABLE_MATH",
+                                                                                        "args": {
+                                                                                            "vectorX": "L0",
+                                                                                            "operation": "set",
+                                                                                            "other": "var",
+                                                                                            "vectorY": "20",
+                                                                                            "value": "0",
+                                                                                            "minValue": null,
+                                                                                            "maxValue": 3,
+                                                                                            "clamp": false,
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "159faee9-c128-4c60-ab14-42a930631b4b"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_VARIABLE_MATH",
+                                                                                        "args": {
+                                                                                            "vectorX": "L0",
+                                                                                            "operation": "sub",
+                                                                                            "other": "var",
+                                                                                            "vectorY": "24",
+                                                                                            "value": "0",
+                                                                                            "minValue": null,
+                                                                                            "maxValue": 3,
+                                                                                            "clamp": false,
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "f735a56f-d316-4a4b-b31d-542355d2e7e9"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_IF_VALUE",
+                                                                                        "args": {
+                                                                                            "variable": "L0",
+                                                                                            "operator": "<=",
+                                                                                            "comparator": "0",
+                                                                                            "__collapseElse": true,
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "children": {
+                                                                                            "true": [
+                                                                                                {
+                                                                                                    "command": "EVENT_SET_VALUE",
+                                                                                                    "args": {
+                                                                                                        "variable": "L0",
+                                                                                                        "value": {
+                                                                                                            "type": "number",
+                                                                                                            "value": 1
+                                                                                                        }
+                                                                                                    },
+                                                                                                    "id": "1c7a2885-d838-4cee-9544-6bccdf07f897"
+                                                                                                }
+                                                                                            ],
+                                                                                            "false": []
+                                                                                        },
+                                                                                        "id": "945b343e-8fc4-41e1-80ba-8f2ac32b27e4"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_VARIABLE_MATH",
+                                                                                        "args": {
+                                                                                            "vectorX": "18",
+                                                                                            "operation": "sub",
+                                                                                            "other": "var",
+                                                                                            "vectorY": "20",
+                                                                                            "value": "0",
+                                                                                            "minValue": null,
+                                                                                            "maxValue": 3,
+                                                                                            "clamp": false,
+                                                                                            "__collapse": true
+                                                                                        },
+                                                                                        "id": "a0bd43b3-3c2b-4fc1-9883-0716d79d0020"
+                                                                                    },
+                                                                                    {
+                                                                                        "command": "EVENT_TEXT",
+                                                                                        "args": {
+                                                                                            "text": [
+                                                                                                "You used Ghost\nTrick! The enemy",
+                                                                                                "has $18$HP\nleft!"
+                                                                                            ],
+                                                                                            "avatarId": ""
+                                                                                        },
+                                                                                        "id": "ff30a1f6-3b1b-4d8e-9ad8-2186ec2fd454"
+                                                                                    }
+                                                                                ],
+                                                                                "true2": [],
+                                                                                "true3": [],
+                                                                                "true4": [],
+                                                                                "true5": [],
+                                                                                "true6": [],
+                                                                                "true7": [],
+                                                                                "true8": [],
+                                                                                "true9": [],
+                                                                                "true10": [],
+                                                                                "true11": [],
+                                                                                "true12": [],
+                                                                                "true13": [],
+                                                                                "true14": [],
+                                                                                "true15": [],
+                                                                                "false": []
+                                                                            },
+                                                                            "id": "725bac78-504e-4c6f-9977-7516465516be"
+                                                                        },
+                                                                        {
+                                                                            "command": "EVENT_SET_VALUE",
+                                                                            "args": {
+                                                                                "variable": "19",
+                                                                                "value": {
+                                                                                    "type": "number",
+                                                                                    "value": 2
+                                                                                }
+                                                                            },
+                                                                            "id": "8cc2df39-6307-48a2-b6e8-b54b9911fbdc"
+                                                                        }
+                                                                    ],
+                                                                    "false": []
+                                                                },
+                                                                "id": "460004eb-8234-4efc-8d4f-32efeb2d4fd6"
+                                                            }
+                                                        ],
+                                                        "true3": [],
+                                                        "true4": [],
+                                                        "true5": [],
+                                                        "true6": [],
+                                                        "true7": [],
+                                                        "true8": [],
+                                                        "true9": [],
+                                                        "true10": [],
+                                                        "true11": [],
+                                                        "true12": [],
+                                                        "true13": [],
+                                                        "true14": [],
+                                                        "true15": [],
                                                         "false": []
                                                     },
-                                                    "id": "59c40b05-8f7a-4a25-a82a-16d8eff8af9f"
-                                                },
-                                                {
-                                                    "command": "EVENT_VARIABLE_MATH",
-                                                    "args": {
-                                                        "vectorX": "18",
-                                                        "operation": "sub",
-                                                        "other": "var",
-                                                        "vectorY": "20",
-                                                        "value": "0",
-                                                        "minValue": null,
-                                                        "maxValue": 3,
-                                                        "clamp": false,
-                                                        "__collapse": true
-                                                    },
-                                                    "id": "e046b44c-7003-42bd-8b93-9f51ab0c2440"
-                                                },
+                                                    "id": "b415ee70-2ecf-4da5-840e-5b0b3655c3da"
+                                                }
+                                            ],
+                                            "true1": [
                                                 {
                                                     "command": "EVENT_TEXT",
                                                     "args": {
                                                         "text": [
-                                                            "You attacked!\nThe enemy has",
-                                                            "$18$ points\nleft!"
+                                                            "There is no \nescape!"
                                                         ],
                                                         "avatarId": ""
                                                     },
-                                                    "id": "11224638-b20d-4349-b8fd-ab17f43c5745"
-                                                },
-                                                {
-                                                    "command": "EVENT_SET_VALUE",
-                                                    "args": {
-                                                        "variable": "19",
-                                                        "value": {
-                                                            "type": "number",
-                                                            "value": 2
-                                                        }
-                                                    },
-                                                    "id": "162580b5-47be-404e-ac22-bbc24477f0a6"
+                                                    "id": "6bd072d1-e6c8-4058-9417-f5df90cc8299"
                                                 }
                                             ],
+                                            "true2": [],
+                                            "true3": [],
+                                            "true4": [],
+                                            "true5": [],
+                                            "true6": [],
+                                            "true7": [],
+                                            "true8": [],
+                                            "true9": [],
+                                            "true10": [],
+                                            "true11": [],
+                                            "true12": [],
+                                            "true13": [],
+                                            "true14": [],
+                                            "true15": [],
                                             "false": []
                                         },
-                                        "id": "c9d67788-9037-45df-b4a9-6e84c6f2a6cb"
+                                        "id": "6df1744d-040f-44a7-80ba-06a0c28b13ee"
                                     },
                                     {
                                         "command": "EVENT_IF_VALUE",
@@ -14756,8 +15914,8 @@
         },
         {
             "id": "16",
-            "name": "Banshpeed",
-            "symbol": "var_banshpeed"
+            "name": "Banshspeed",
+            "symbol": "var_banshspeed"
         },
         {
             "id": "17",
@@ -14838,6 +15996,16 @@
             "id": "3659513b-ab42-49f7-968c-0feffc7e71ce__L2",
             "name": "Local 2",
             "symbol": "var_local_2"
+        },
+        {
+            "id": "ce86e619-ddb9-4ad2-854c-b1e6100c9181__L5",
+            "name": "Player",
+            "symbol": "var_player"
+        },
+        {
+            "id": "26",
+            "name": "Player",
+            "symbol": "var_player_0"
         }
     ],
     "engineFieldValues": [
@@ -14857,8 +16025,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 318,
-        "worldScrollY": 0,
+        "worldScrollX": 1184,
+        "worldScrollY": 204,
         "zoom": 175,
         "customColorsEnabled": false,
         "sgbEnabled": false,
@@ -14887,9 +16055,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            576,
-            55,
-            317
+            800,
+            76,
+            440
         ],
         "showNavigator": true,
         "defaultFontId": "26fa15df-3318-44ad-8bfd-feff8ba7991d",

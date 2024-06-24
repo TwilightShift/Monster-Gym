@@ -7828,13 +7828,22 @@
                                         "children": {
                                             "true": [
                                                 {
-                                                    "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                                                    "command": "EVENT_INC_VALUE",
+                                                    "args": {
+                                                        "variable": "L2"
+                                                    },
+                                                    "id": "81d31ab5-13dd-42ec-9ad2-bcfa4b3d5167"
+                                                },
+                                                {
+                                                    "command": "EVENT_ACTOR_SET_FRAME",
                                                     "args": {
                                                         "actorId": "$self$",
-                                                        "x": 0,
-                                                        "y": -1
+                                                        "frame": {
+                                                            "type": "variable",
+                                                            "value": "L2"
+                                                        }
                                                     },
-                                                    "id": "749ad832-a05e-426a-afd4-931e3d924134"
+                                                    "id": "80a0700e-7009-4d77-839d-85099fac8ae3"
                                                 }
                                             ],
                                             "false": []
@@ -7915,7 +7924,7 @@
                     "hit3Script": [],
                     "id": "652cc657-b785-4bd9-b266-a16f5008814e",
                     "x": 17,
-                    "y": 17
+                    "y": 10
                 },
                 {
                     "name": "",
@@ -11652,37 +11661,6 @@
                             "id": "0ed1aa1c-7c0b-4934-a065-89cda7b00da9",
                             "frames": [
                                 {
-                                    "id": "e6b69df6-7177-4427-a025-c9d056b310ab",
-                                    "tiles": [
-                                        {
-                                            "id": "8a95bcd4-e85a-4553-b8b9-4d029f634b0e",
-                                            "x": 0,
-                                            "y": -8,
-                                            "sliceX": 0,
-                                            "sliceY": 0,
-                                            "palette": 0,
-                                            "flipX": false,
-                                            "flipY": false,
-                                            "objPalette": "OBP0",
-                                            "paletteIndex": 0,
-                                            "priority": false
-                                        },
-                                        {
-                                            "id": "8fb65174-6d84-4366-b14d-dcfd6f0e09a5",
-                                            "x": 8,
-                                            "y": -8,
-                                            "sliceX": 8,
-                                            "sliceY": 0,
-                                            "palette": 0,
-                                            "flipX": false,
-                                            "flipY": false,
-                                            "objPalette": "OBP0",
-                                            "paletteIndex": 0,
-                                            "priority": false
-                                        }
-                                    ]
-                                },
-                                {
                                     "id": "23978996-1db9-4cde-a926-c224076335d8",
                                     "tiles": [
                                         {
@@ -12279,7 +12257,7 @@
                     ]
                 }
             ],
-            "numTiles": 7,
+            "numTiles": 6,
             "canvasWidth": 16,
             "canvasHeight": 64,
             "boundsX": 0,
@@ -37246,6 +37224,11 @@
             "id": "0ebbc640-f193-4e84-b949-2d541c5db247__L2",
             "name": "Left",
             "symbol": "var_left_0"
+        },
+        {
+            "id": "652cc657-b785-4bd9-b266-a16f5008814e__L2",
+            "name": "Animation",
+            "symbol": "var_animation"
         }
     ],
     "engineFieldValues": [
@@ -37265,8 +37248,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 1610,
-        "worldScrollY": 8,
+        "worldScrollX": 1877,
+        "worldScrollY": 0,
         "zoom": 325,
         "customColorsEnabled": false,
         "sgbEnabled": false,

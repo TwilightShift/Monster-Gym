@@ -17,7 +17,7 @@
                     "id": "d12d5092-2716-441d-bab0-0e15fe715f5e",
                     "spriteSheetId": "ede130e6-013a-42d1-a786-1aed3fd3cf32",
                     "x": 2,
-                    "y": 8,
+                    "y": 3,
                     "movementType": "static",
                     "direction": "down",
                     "animate": true,
@@ -37,8 +37,8 @@
                 {
                     "id": "a85c4ba5-9bc0-4daa-94bc-4ef68a690659",
                     "spriteSheetId": "186992e7-995e-4497-bd0b-30b400912689",
-                    "x": 8,
-                    "y": 26,
+                    "x": 7,
+                    "y": 28,
                     "movementType": "faceInteraction",
                     "direction": "down",
                     "script": [
@@ -63,9 +63,9 @@
                             "command": "EVENT_ACTOR_MOVE_RELATIVE",
                             "args": {
                                 "actorId": "$self$",
-                                "x": 1,
-                                "y": 2,
-                                "moveType": "diagonal",
+                                "x": 13,
+                                "y": 0,
+                                "moveType": "horizontal",
                                 "useCollisions": true,
                                 "__collapse": false
                             },
@@ -75,13 +75,13 @@
                             "command": "EVENT_ACTOR_MOVE_RELATIVE",
                             "args": {
                                 "actorId": "$self$",
-                                "x": 5,
-                                "y": 5,
-                                "moveType": "diagonal",
+                                "x": -13,
+                                "y": 0,
+                                "moveType": "horizontal",
                                 "useCollisions": true,
                                 "__collapse": false
                             },
-                            "id": "f1a6011d-0606-45be-8b03-e3ad62fa7170"
+                            "id": "25dc1323-c6f7-4413-b85a-7957a3ab6b44"
                         }
                     ],
                     "moveSpeed": 1,
@@ -93,8 +93,8 @@
                 {
                     "id": "5cf6eb6c-be62-4efc-9cbb-14a8efac21a8",
                     "spriteSheetId": "7f75b818-25ec-4ebb-a74e-5051da13aa0a",
-                    "x": 10,
-                    "y": 17,
+                    "x": 19,
+                    "y": 5,
                     "movementType": "faceInteraction",
                     "direction": "down",
                     "script": [
@@ -103,7 +103,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "I cant wait to \nfight you.."
+                                    "HahhahahHAHAHAHha\n.....MUST TRAIN! "
                                 ]
                             }
                         },
@@ -128,7 +128,8 @@
                         {
                             "command": "EVENT_ACTOR_PUSH",
                             "args": {
-                                "continue": true
+                                "continue": false,
+                                "__collapse": false
                             },
                             "id": "e7d504e2-fab1-4bde-8b35-0dc98bee2145"
                         }
@@ -139,6 +140,42 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "updateScript": [
+                        {
+                            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                            "args": {
+                                "actorId": "$self$",
+                                "x": 3,
+                                "y": 1,
+                                "moveType": "horizontal",
+                                "useCollisions": true,
+                                "__collapse": false
+                            },
+                            "id": "be1b7574-6c88-4239-9ffa-c7de24a3673e"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                            "args": {
+                                "actorId": "$self$",
+                                "x": -3,
+                                "y": -1,
+                                "moveType": "diagonal",
+                                "useCollisions": true,
+                                "__collapse": false
+                            },
+                            "id": "e6bd98db-6359-4adb-ad37-9cb793048a45"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                            "args": {
+                                "actorId": "$self$",
+                                "x": -3,
+                                "y": -1,
+                                "moveType": "vertical",
+                                "useCollisions": true,
+                                "__collapse": false
+                            },
+                            "id": "307ac9b8-2ce3-4a03-9955-bf0d6e82b14d"
+                        },
                         {
                             "command": "EVENT_IF_VALUE",
                             "args": {
@@ -162,43 +199,9 @@
                             "id": "897797b0-9398-406e-8963-da1ed1fbd321"
                         }
                     ],
-                    "moveSpeed": 3,
+                    "moveSpeed": 2,
                     "animSpeed": 15,
                     "symbol": "actor_6"
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_1",
-                    "script": [
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Battle Master ->"
-                                ],
-                                "avatarId": ""
-                            },
-                            "id": "e8a9d6c9-5f9b-4937-9731-324582b15e6b"
-                        }
-                    ],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "c7bd1fec-f9fc-4537-b600-991206eb4707",
-                    "x": 24,
-                    "y": 11
                 },
                 {
                     "id": "b5594786-5675-48cf-b382-18b6341b855c",
@@ -357,6 +360,30 @@
                     "startScript": [],
                     "updateScript": [
                         {
+                            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                            "args": {
+                                "actorId": "$self$",
+                                "x": 21,
+                                "y": 0,
+                                "moveType": "horizontal",
+                                "useCollisions": true,
+                                "__collapse": false
+                            },
+                            "id": "a154c2ec-3a0a-4e1b-89ce-02af44056bb0"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                            "args": {
+                                "actorId": "$self$",
+                                "x": -21,
+                                "y": 0,
+                                "moveType": "horizontal",
+                                "useCollisions": true,
+                                "__collapse": false
+                            },
+                            "id": "72d1c71e-eefb-4995-9844-e332e934e7ad"
+                        },
+                        {
                             "command": "EVENT_IF_VALUE",
                             "args": {
                                 "variable": "28",
@@ -383,8 +410,8 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "1ddee72f-9656-4f6a-b5b9-59686748a7cf",
-                    "x": 15,
-                    "y": 13
+                    "x": 13,
+                    "y": 14
                 },
                 {
                     "name": "",
@@ -399,7 +426,18 @@
                     "persistent": false,
                     "collisionGroup": "",
                     "symbol": "actor_25",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "......"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "76749f0c-a531-4255-85f2-480bce13dfd6"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [
                         {
@@ -429,8 +467,8 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "2617eb3c-a6ef-4af8-9d21-fee8342c7b89",
-                    "x": 24,
-                    "y": 17
+                    "x": 23,
+                    "y": 19
                 },
                 {
                     "name": "",
@@ -452,8 +490,8 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "ff7451fd-869a-41c2-8cc4-201c63e7d391",
-                    "x": 24,
-                    "y": 24
+                    "x": 29,
+                    "y": 26
                 },
                 {
                     "name": "",
@@ -477,63 +515,6 @@
                     "id": "a031f76d-934e-4aeb-83d7-cd27650c8b37",
                     "x": 29,
                     "y": 28
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "59ffbb40-564d-43ca-bea1-a8e857aad141",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_28",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "e132b4c4-d3d1-412a-b4e6-6ae36b0c6d66",
-                    "x": 28,
-                    "y": 24
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_0",
-                    "script": [
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Gym ->"
-                                ],
-                                "avatarId": ""
-                            },
-                            "id": "38d8b2d1-0168-41be-9a90-21cfd6df08c2"
-                        }
-                    ],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "efdf7af9-08c9-43a5-8f7f-7624ce752be7",
-                    "x": 11,
-                    "y": 11
                 },
                 {
                     "name": "",
@@ -5425,7 +5406,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Awwwh shucks,\nplease don't kill \nme!"
+                                                "Bring it on mate."
                                             ],
                                             "avatarId": ""
                                         },
@@ -5434,7 +5415,7 @@
                                     {
                                         "command": "EVENT_SWITCH_SCENE",
                                         "args": {
-                                            "sceneId": "882d9da8-f490-418a-bb89-b22e5736be6d",
+                                            "sceneId": "e97952d8-67a8-48a4-a181-0eb10ffc4794",
                                             "x": 5,
                                             "y": 0,
                                             "direction": "",
@@ -5448,11 +5429,23 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Awwwh shucks,\nplease don't kill \nme!"
+                                                "I dont want to do\nthis but we need "
                                             ],
-                                            "avatarId": ""
+                                            "avatarId": "",
+                                            "__collapse": false
                                         },
                                         "id": "1837b67b-5b93-4f1b-8cf1-bbefcded1bca"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "to train you see..\nPrepare yourself."
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": false
+                                        },
+                                        "id": "ccb83a80-53a5-471a-bb53-fb105c83c98f"
                                     },
                                     {
                                         "command": "EVENT_SWITCH_SCENE",
@@ -5471,7 +5464,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Awwwh shucks,\nplease don't kill \nme!"
+                                                "HaHahahaHAHah..\nHahahHAHAHAHAHAAHA"
                                             ],
                                             "avatarId": ""
                                         },
@@ -9303,6 +9296,136 @@
                     "id": "7b233c8f-29dc-4b86-83c1-4757f960cc2c",
                     "x": 15,
                     "y": 18
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "ba4a6e94-4913-4dcb-a826-0a47ac7baf1c",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_0",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Hey lad, welcome\nto the gym."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "edefe570-e1a4-4809-97b2-88cd6f80a1f3"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Train hard, They\nmake you fight "
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "67e718d3-cd8c-4229-b980-9d059925b6e6"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "for fun...."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "5af52219-909d-4d50-a539-2c2f381f2a64"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "I wish I wasnt \nborn this way."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "6c310299-4bfd-48fa-801b-3956389502c5"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "but im going to\ntrain extra hard!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "1010eecf-3783-40b8-9fe8-e2ab78aebd37"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Good luck!!\nSlugger!!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "85b128b1-17f9-4e00-8d6e-dc60e0bdab03"
+                        }
+                    ],
+                    "startScript": [
+                        {
+                            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                            "args": {
+                                "actorId": "$self$",
+                                "x": -2,
+                                "y": 0,
+                                "moveType": "horizontal",
+                                "useCollisions": true
+                            },
+                            "id": "8088f462-c806-42eb-b6db-5e03a2667475"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                            "args": {
+                                "actorId": "$self$",
+                                "x": 2,
+                                "y": 0,
+                                "moveType": "horizontal",
+                                "useCollisions": true
+                            },
+                            "id": "3ea96d9f-26b3-41d6-8a69-a4b8627e093e"
+                        }
+                    ],
+                    "updateScript": [
+                        {
+                            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                            "args": {
+                                "actorId": "$self$",
+                                "x": -5,
+                                "y": 0,
+                                "moveType": "horizontal",
+                                "useCollisions": true
+                            },
+                            "id": "a8e920f7-981e-49ee-a9fa-9b6d7cce6ff9"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                            "args": {
+                                "actorId": "$self$",
+                                "x": 4,
+                                "y": 0,
+                                "moveType": "horizontal",
+                                "useCollisions": true
+                            },
+                            "id": "ac5e0212-b559-46d5-8f2d-adbbf0876b6d"
+                        }
+                    ],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "9c6d7c61-08ae-464a-b5bb-d5fe5161a769",
+                    "x": 23,
+                    "y": 24
                 }
             ],
             "triggers": [
@@ -11269,12 +11392,25 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "904cbede-74c7-4b00-8313-cb1485ed0b95",
-                    "x": 12,
-                    "y": 14
+                    "x": 9,
+                    "y": 9
                 }
             ],
             "triggers": [],
             "script": [
+                {
+                    "command": "EVENT_MUSIC_STOP",
+                    "args": {},
+                    "id": "34be64d7-9379-46e1-b138-1b9f5bb02aaf"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "14d7162f-cc7f-4a48-8b56-7932b5ab486e",
+                        "__collapse": false
+                    },
+                    "id": "681ca529-0f30-4b2b-94d0-db993b1facb7"
+                },
                 {
                     "command": "EVENT_ACTOR_DEACTIVATE",
                     "args": {
@@ -15968,17 +16104,6 @@
     ],
     "backgrounds": [
         {
-            "id": "bdcaf7d2-4775-4268-805c-c3adad2611a6",
-            "name": "BANSPEED",
-            "symbol": "bg_banspeed_0",
-            "width": 20,
-            "height": 18,
-            "imageWidth": 161,
-            "imageHeight": 144,
-            "filename": "BANSPEED.png",
-            "tileColors": []
-        },
-        {
             "id": "217aaaf6-5fab-458b-9324-2ab109e47361",
             "name": "Banshpeed",
             "symbol": "bg_banshpeed",
@@ -15987,6 +16112,17 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Banshpeed.png",
+            "tileColors": []
+        },
+        {
+            "id": "9661aa66-dedd-4245-9c47-3cfeec7fc23a",
+            "name": "Banspeed",
+            "symbol": "bg_banspeed",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 161,
+            "imageHeight": 144,
+            "filename": "Banspeed.png",
             "tileColors": []
         },
         {
@@ -16052,7 +16188,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "NERCOHOUSE.png"
+            "filename": "NERCOHOUSE.png",
+            "tileColors": []
         },
         {
             "id": "7d6b6f99-ba2f-40e5-80a5-204b51397a03",
@@ -34966,9 +35103,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            803,
-            73,
-            440
+            570,
+            51,
+            311
         ],
         "showNavigator": true,
         "defaultFontId": "26fa15df-3318-44ad-8bfd-feff8ba7991d",

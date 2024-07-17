@@ -9346,7 +9346,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Press X to build\nStrength!!!"
+                                    "Press B to build\nStrength!!!"
                                 ],
                                 "avatarId": ""
                             },
@@ -44974,8 +44974,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 1365,
-        "worldScrollY": 2900,
+        "worldScrollX": 2883,
+        "worldScrollY": 0,
         "zoom": 450,
         "customColorsEnabled": false,
         "sgbEnabled": false,

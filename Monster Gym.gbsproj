@@ -818,17 +818,46 @@
                     "symbol": "actor_58",
                     "script": [
                         {
-                            "command": "EVENT_TEXT",
+                            "command": "EVENT_IF_VALUE",
                             "args": {
-                                "text": [
-                                    "Hello.. \nWhere am i?",
-                                    "I'm Chomper..\nI like to chomp",
-                                    "Does this place \nhave a cafe?"
-                                ],
-                                "avatarId": "",
-                                "__collapse": false
+                                "variable": "28",
+                                "operator": "==",
+                                "comparator": 4,
+                                "__collapseElse": false
                             },
-                            "id": "6ad4ba6c-a04a-4639-95fa-8e712982915a"
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "I found a coffe.\n",
+                                                "But it was inside\na bin...",
+                                                "Oh yeah! ",
+                                                "Did you enjoy\npaniels eggs?"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "e1d52e4c-32b3-49d0-9154-3e67549dc73e"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Hello.. \nWhere am i?",
+                                                "I'm Chomper..\nI like to chomp",
+                                                "Does this place \nhave a cafe?"
+                                            ],
+                                            "avatarId": "",
+                                            "__collapse": false
+                                        },
+                                        "id": "6ad4ba6c-a04a-4639-95fa-8e712982915a"
+                                    }
+                                ]
+                            },
+                            "id": "b6ead0d5-0eea-49fc-947b-3a899403bb60"
                         }
                     ],
                     "startScript": [
@@ -1470,7 +1499,7 @@
                             "command": "EVENT_IF_VALUE",
                             "args": {
                                 "variable": "28",
-                                "operator": ">=",
+                                "operator": "==",
                                 "comparator": 2,
                                 "__collapseElse": false
                             },
@@ -1482,7 +1511,7 @@
                                             "sceneId": "1b7f9ffd-2bbb-470b-9189-c2ac435d2a55",
                                             "x": 9,
                                             "y": 14,
-                                            "direction": "",
+                                            "direction": "up",
                                             "fadeSpeed": "2"
                                         },
                                         "id": "dfc114c6-ae46-4c8b-a3d5-ea6ec7b0f3e1"
@@ -1522,7 +1551,7 @@
                                 "sceneId": "f6c99352-a098-43e6-8ade-9e3db34b44c8",
                                 "x": 21,
                                 "y": 28,
-                                "direction": "",
+                                "direction": "up",
                                 "fadeSpeed": "2"
                             },
                             "id": "9bc75aa2-bc20-4eb3-91a7-e1a8cbb70b73"
@@ -1552,17 +1581,6 @@
                         }
                     ],
                     "leaveScript": []
-                },
-                {
-                    "name": "",
-                    "id": "e5d7611f-1d37-40f7-ac3c-50b8fe35badf",
-                    "x": 24,
-                    "y": 1,
-                    "symbol": "trigger_3",
-                    "width": 2,
-                    "height": 3,
-                    "script": [],
-                    "leaveScript": []
                 }
             ],
             "collisions": [
@@ -1589,10 +1607,6 @@
                 0,
                 0,
                 0,
-                15,
-                15,
-                15,
-                15,
                 0,
                 0,
                 0,
@@ -1621,20 +1635,19 @@
                 0,
                 0,
                 0,
-                15,
-                0,
-                0,
-                15,
                 0,
                 0,
                 0,
                 0,
                 0,
-                15,
-                15,
-                15,
-                15,
-                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 15,
                 15,
                 15,
@@ -1654,8 +1667,13 @@
                 15,
                 15,
                 15,
-                0,
-                0,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
                 15,
                 15,
                 15,
@@ -2936,7 +2954,7 @@
                                 "sceneId": "94c18861-b352-4f49-a64d-52f2e3415077",
                                 "x": 8,
                                 "y": 13,
-                                "direction": "",
+                                "direction": "down",
                                 "fadeSpeed": "2"
                             },
                             "id": "18ac6580-fbb9-40f3-91a9-81c83809aa0b"
@@ -6473,6 +6491,13 @@
                                             "avatarId": ""
                                         },
                                         "id": "0f7dd05a-d2d4-4e86-9fe1-e2d5fa4fee46"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_FALSE",
+                                        "args": {
+                                            "variable": "31"
+                                        },
+                                        "id": "8da79c19-75c7-48d3-aa03-4c888584e3e6"
                                     }
                                 ],
                                 "false": []
@@ -6675,7 +6700,7 @@
                                 "sceneId": "94c18861-b352-4f49-a64d-52f2e3415077",
                                 "x": 28,
                                 "y": 13,
-                                "direction": "",
+                                "direction": "down",
                                 "fadeSpeed": "2"
                             },
                             "id": "95b2f11f-4e7f-48fc-a49d-a3be475d0fcf"
@@ -9169,7 +9194,7 @@
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "70debe68-4b4f-4a24-a774-bb7e5bfcd161",
-                    "direction": "down",
+                    "direction": "up",
                     "moveSpeed": 1,
                     "animSpeed": 255,
                     "paletteId": "",
@@ -10980,7 +11005,7 @@
                                 "sceneId": "94c18861-b352-4f49-a64d-52f2e3415077",
                                 "x": 17,
                                 "y": 13,
-                                "direction": "",
+                                "direction": "down",
                                 "fadeSpeed": "2"
                             },
                             "id": "b2021461-0d3f-4334-98a6-b56cefa63372"
@@ -12184,7 +12209,7 @@
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "9a0a0e99-ade2-4c3a-8904-75e039e283d9",
-                    "direction": "down",
+                    "direction": "up",
                     "moveSpeed": 1,
                     "animSpeed": 255,
                     "paletteId": "",
@@ -36129,8 +36154,8 @@
             "canvasHeight": 32,
             "boundsX": 0,
             "boundsY": 0,
-            "boundsWidth": 16,
-            "boundsHeight": 16,
+            "boundsWidth": 15,
+            "boundsHeight": 32,
             "animSpeed": 15
         },
         {
@@ -46754,9 +46779,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 2203,
-        "worldScrollY": 795,
-        "zoom": 325,
+        "worldScrollX": 3780,
+        "worldScrollY": 2697,
+        "zoom": 800,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
